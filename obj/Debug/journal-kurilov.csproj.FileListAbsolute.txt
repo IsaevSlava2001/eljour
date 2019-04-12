@@ -1,0 +1,10 @@
+C:\Users\Татьяна\Documents\Visual Studio 2015\Projects\journal-kurilov\bin\Debug\journal-kurilov.exe.config
+C:\Users\Татьяна\Documents\Visual Studio 2015\Projects\journal-kurilov\bin\Debug\journal-kurilov.exe
+C:\Users\Татьяна\Documents\Visual Studio 2015\Projects\journal-kurilov\bin\Debug\journal-kurilov.pdb
+C:\Users\Татьяна\Documents\Visual Studio 2015\Projects\journal-kurilov\obj\Debug\journal-kurilov.csprojResolveAssemblyReference.cache
+C:\Users\Татьяна\Documents\Visual Studio 2015\Projects\journal-kurilov\obj\Debug\journal_kurilov.Form1.resources
+C:\Users\Татьяна\Documents\Visual Studio 2015\Projects\journal-kurilov\obj\Debug\journal_kurilov.Properties.Resources.resources
+C:\Users\Татьяна\Documents\Visual Studio 2015\Projects\journal-kurilov\obj\Debug\journal-kurilov.csproj.GenerateResource.Cache
+C:\Users\Татьяна\Documents\Visual Studio 2015\Projects\journal-kurilov\obj\Debug\journal-kurilov.exe
+C:\Users\Татьяна\Documents\Visual Studio 2015\Projects\journal-kurilov\obj\Debug\journal-kurilov.pdb
+C:\Users\Татьяна\Documents\Visual Studio 2015\Projects\journal-kurilov\obj\Debug\journal_kurilov.group_PKS_22_TSI.resources
