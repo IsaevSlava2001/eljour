@@ -78,33 +78,42 @@ namespace journal_kurilov
             textBox21.Text = get;
             get = File.ReadAllText($@"C:/electron_journal/{group}/{month}/data/1/21");
             textBox623.Text = get;
+            monthcheck = Convert.ToBoolean(File.ReadAllText($@"C:/electron_journal/{group}/{month}/data/endcheck.txt"));
 
         }
         public void savemark(string group,string month)//сохранение оценок на одну группу на один месяц
+        {if (!monthcheck)
+            {
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/1", textBox37.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/2", textBox36.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/3", textBox35.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/4", textBox34.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/5", textBox33.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/6", textBox32.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/7", textBox31.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/8", textBox30.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/9", textBox29.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/10", textBox28.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/11", textBox27.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/12", textBox26.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/13", textBox25.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/14", textBox24.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/15", textBox38.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/16", textBox39.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/17", textBox23.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/18", textBox40.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/19", textBox22.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/20", textBox21.Text);
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/21", textBox623.Text);
+            }
+            else
+            {
+                endcheck();
+            }
+        }
+        public void endcheck_zap(string group,string month)
         {
-            
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/1",textBox37.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/2", textBox36.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/3", textBox35.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/4", textBox34.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/5", textBox33.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/6", textBox32.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/7", textBox31.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/8", textBox30.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/9", textBox29.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/10", textBox28.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/11", textBox27.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/12", textBox26.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/13", textBox25.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/14", textBox24.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/15", textBox38.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/16", textBox39.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/17", textBox23.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/18", textBox40.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/19", textBox22.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/20", textBox21.Text);
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/1/21", textBox623.Text);
-
+            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/endcheck.txt", monthcheck.ToString());
         }
         public void createdir(string group,string month)//создание директорий
         {
@@ -122,6 +131,7 @@ namespace journal_kurilov
                     File.Create($@"C:/electron_journal/{group}/{month}/data/{i}/{k}").Close();
                 }
             }
+            File.Create($@"C:/electron_journal/{group}/{month}/data/endcheck.txt");
         }
         public group_PKS_22_TSI()
         {
@@ -495,7 +505,7 @@ namespace journal_kurilov
         {
             if (monthcheck)
             {
-                goto endcheck;
+                 endcheck();
             }
             else
             {
@@ -858,9 +868,11 @@ namespace journal_kurilov
                 summ = 0;
                 beznb = 0;
                 monthcheck = true;
+                endcheck_zap(group_loc,month_loc);
             }
-            endcheck:
-
+        }
+        private void endcheck()
+        {
             MessageBox.Show("Месяц уже подсчитан");
         }
         private void textBox37_TextChanged(object sender, EventArgs e)
@@ -1303,73 +1315,6 @@ namespace journal_kurilov
 
         private void button4_Click(object sender, EventArgs e)
         {
-            
-
-            if (!Directory.Exists(@"C:/electron_journal"))
-            {
-                Directory.CreateDirectory(@"C:/electron_journal");
-            }
-
-            if(!Directory.Exists(@"C:/electron_journal/september"))
-            {
-                Directory.CreateDirectory(@"C:/electron_journal/september");
-            }
-
-            if (!Directory.Exists(@"C:/electron_journal/october"))
-            {
-                Directory.CreateDirectory(@"C:/electron_journal/october");
-            }
-
-            if (!Directory.Exists(@"C:/electron_journal/november"))
-            {
-                Directory.CreateDirectory(@"C:/electron_journal/november");
-            }
-
-            if (!Directory.Exists(@"C:/electron_journal/itog1"))
-            {
-                Directory.CreateDirectory(@"C:/electron_journal/itog1");
-            }
-
-
-            if (!Directory.Exists(@"C:/electron_journal/june"))
-            {
-                Directory.CreateDirectory(@"C:/electron_journal/june");
-            }
-
-            if (!Directory.Exists(@"C:/electron_journal/feburary"))
-            {
-                Directory.CreateDirectory(@"C:/electron_journal/feburary");
-            }
-
-            if (!Directory.Exists(@"C:/electron_journal/march"))
-            {
-                Directory.CreateDirectory(@"C:/electron_journal/march");
-            }
-
-            if (!Directory.Exists(@"C:/electron_journal/april"))
-            {
-                Directory.CreateDirectory(@"C:/electron_journal/april");
-            }
-
-            if (!Directory.Exists(@"C:/electron_journal/may"))
-            {
-                Directory.CreateDirectory(@"C:/electron_journal/may");
-            }
-
-            if (!Directory.Exists(@"C:/electron_journal/june"))
-            {
-                Directory.CreateDirectory(@"C:/electron_journal/june");
-            }
-
-            if (!Directory.Exists(@"C:/electron_journal/itog2"))
-            {
-                Directory.CreateDirectory(@"C:/electron_journal/itog2");
-            }
-
-            if (!Directory.Exists(@"C:/electron_journal/december"))
-            {
-                Directory.CreateDirectory(@"C:/electron_journal/december");
-            }
             savemark(group_loc, month_loc);
 
         }
