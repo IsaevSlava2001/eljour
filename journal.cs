@@ -143,9 +143,7 @@ namespace journal_kurilov
 
         private void group_PKS_22_TSI_Load(object sender, EventArgs e)
         {
-            VScrollBar vsb1 = new VScrollBar();
-            vsb1.Dock = DockStyle.Right;
-            Controls.Add(vsb1);
+            this.SetScrollState(1, true); // Полоса прокрутки
             MessageBox.Show("Пожалуйста, подождите это может занять некоторое время");
             if (!Directory.Exists(@"C:/electron_journal/PKS-21OP03"))
             {
