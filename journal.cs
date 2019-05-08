@@ -508,6 +508,7 @@ namespace journal_kurilov
             else
             {
                 //делать обработчики для нб
+                    //подсчет заполненных клеток
                 if (textBox37.Text != "")
                 {
                     if (textBox36.Text != "")
@@ -645,6 +646,8 @@ namespace journal_kurilov
                         zapolneno = 1;
                     }
                 }
+                //..конец подсчета заполненных клеток
+                //подсчет клеток без нб и их мест
                 else
                 {
                     zapolneno = 0;
@@ -769,6 +772,8 @@ namespace journal_kurilov
                     zapolneno--;
                     check[20] = true;
                 }
+                //..конец подсчета клеток без нб и их мест
+                //счет среднего значения с учетом всех факторов
                 for (int i = 1; i < 21; i++)
                 {
                     if (schet != 20 - x)
@@ -861,6 +866,7 @@ namespace journal_kurilov
                         }
                     }
                 }
+                //..конец счета среднего значения с учетом всех факторов
                 summ = summ / (20 - beznb);
                 textBox623.Text = Convert.ToString(summ);
                 summ = 0;

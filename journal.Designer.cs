@@ -856,7 +856,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 37.32768F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 62.67232F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 93F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 95F));
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel33, 1, 32);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel32, 1, 31);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel31, 1, 30);
@@ -6384,9 +6384,9 @@
             // label2
             // 
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Location = new System.Drawing.Point(921, 1);
+            this.label2.Location = new System.Drawing.Point(919, 1);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 50);
+            this.label2.Size = new System.Drawing.Size(90, 50);
             this.label2.TabIndex = 1;
             this.label2.Text = "итог";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -7479,7 +7479,7 @@
             // 
             // textBox621
             // 
-            this.textBox621.Location = new System.Drawing.Point(921, 55);
+            this.textBox621.Location = new System.Drawing.Point(919, 55);
             this.textBox621.Multiline = true;
             this.textBox621.Name = "textBox621";
             this.textBox621.Size = new System.Drawing.Size(62, 20);
@@ -7487,7 +7487,7 @@
             // 
             // textBox622
             // 
-            this.textBox622.Location = new System.Drawing.Point(921, 86);
+            this.textBox622.Location = new System.Drawing.Point(919, 86);
             this.textBox622.Multiline = true;
             this.textBox622.Name = "textBox622";
             this.textBox622.Size = new System.Drawing.Size(62, 20);
@@ -7495,7 +7495,7 @@
             // 
             // textBox623
             // 
-            this.textBox623.Location = new System.Drawing.Point(921, 117);
+            this.textBox623.Location = new System.Drawing.Point(919, 117);
             this.textBox623.Multiline = true;
             this.textBox623.Name = "textBox623";
             this.textBox623.Size = new System.Drawing.Size(62, 19);
@@ -7503,7 +7503,7 @@
             // 
             // textBox624
             // 
-            this.textBox624.Location = new System.Drawing.Point(921, 143);
+            this.textBox624.Location = new System.Drawing.Point(919, 143);
             this.textBox624.Multiline = true;
             this.textBox624.Name = "textBox624";
             this.textBox624.Size = new System.Drawing.Size(62, 19);
@@ -7511,7 +7511,7 @@
             // 
             // textBox625
             // 
-            this.textBox625.Location = new System.Drawing.Point(921, 169);
+            this.textBox625.Location = new System.Drawing.Point(919, 169);
             this.textBox625.Multiline = true;
             this.textBox625.Name = "textBox625";
             this.textBox625.Size = new System.Drawing.Size(62, 19);
@@ -7519,7 +7519,7 @@
             // 
             // textBox626
             // 
-            this.textBox626.Location = new System.Drawing.Point(921, 195);
+            this.textBox626.Location = new System.Drawing.Point(919, 195);
             this.textBox626.Multiline = true;
             this.textBox626.Name = "textBox626";
             this.textBox626.Size = new System.Drawing.Size(62, 19);
@@ -7527,7 +7527,7 @@
             // 
             // textBox627
             // 
-            this.textBox627.Location = new System.Drawing.Point(921, 221);
+            this.textBox627.Location = new System.Drawing.Point(919, 221);
             this.textBox627.Multiline = true;
             this.textBox627.Name = "textBox627";
             this.textBox627.Size = new System.Drawing.Size(62, 19);
@@ -7535,7 +7535,7 @@
             // 
             // textBox628
             // 
-            this.textBox628.Location = new System.Drawing.Point(921, 247);
+            this.textBox628.Location = new System.Drawing.Point(919, 247);
             this.textBox628.Multiline = true;
             this.textBox628.Name = "textBox628";
             this.textBox628.Size = new System.Drawing.Size(62, 19);
@@ -7543,7 +7543,7 @@
             // 
             // textBox629
             // 
-            this.textBox629.Location = new System.Drawing.Point(921, 273);
+            this.textBox629.Location = new System.Drawing.Point(919, 273);
             this.textBox629.Multiline = true;
             this.textBox629.Name = "textBox629";
             this.textBox629.Size = new System.Drawing.Size(62, 19);
@@ -7551,7 +7551,7 @@
             // 
             // textBox630
             // 
-            this.textBox630.Location = new System.Drawing.Point(921, 299);
+            this.textBox630.Location = new System.Drawing.Point(919, 299);
             this.textBox630.Multiline = true;
             this.textBox630.Name = "textBox630";
             this.textBox630.Size = new System.Drawing.Size(62, 19);
@@ -7559,7 +7559,7 @@
             // 
             // textBox631
             // 
-            this.textBox631.Location = new System.Drawing.Point(921, 325);
+            this.textBox631.Location = new System.Drawing.Point(919, 325);
             this.textBox631.Multiline = true;
             this.textBox631.Name = "textBox631";
             this.textBox631.Size = new System.Drawing.Size(62, 19);
@@ -7567,7 +7567,7 @@
             // 
             // textBox642
             // 
-            this.textBox642.Location = new System.Drawing.Point(921, 351);
+            this.textBox642.Location = new System.Drawing.Point(919, 351);
             this.textBox642.Multiline = true;
             this.textBox642.Name = "textBox642";
             this.textBox642.Size = new System.Drawing.Size(62, 19);
@@ -7575,7 +7575,7 @@
             // 
             // textBox635
             // 
-            this.textBox635.Location = new System.Drawing.Point(921, 377);
+            this.textBox635.Location = new System.Drawing.Point(919, 377);
             this.textBox635.Multiline = true;
             this.textBox635.Name = "textBox635";
             this.textBox635.Size = new System.Drawing.Size(62, 19);
@@ -7583,7 +7583,7 @@
             // 
             // textBox638
             // 
-            this.textBox638.Location = new System.Drawing.Point(921, 403);
+            this.textBox638.Location = new System.Drawing.Point(919, 403);
             this.textBox638.Multiline = true;
             this.textBox638.Name = "textBox638";
             this.textBox638.Size = new System.Drawing.Size(62, 19);
@@ -7591,7 +7591,7 @@
             // 
             // textBox633
             // 
-            this.textBox633.Location = new System.Drawing.Point(921, 429);
+            this.textBox633.Location = new System.Drawing.Point(919, 429);
             this.textBox633.Multiline = true;
             this.textBox633.Name = "textBox633";
             this.textBox633.Size = new System.Drawing.Size(62, 19);
@@ -7599,7 +7599,7 @@
             // 
             // textBox639
             // 
-            this.textBox639.Location = new System.Drawing.Point(921, 455);
+            this.textBox639.Location = new System.Drawing.Point(919, 455);
             this.textBox639.Multiline = true;
             this.textBox639.Name = "textBox639";
             this.textBox639.Size = new System.Drawing.Size(62, 19);
@@ -7607,7 +7607,7 @@
             // 
             // textBox640
             // 
-            this.textBox640.Location = new System.Drawing.Point(921, 481);
+            this.textBox640.Location = new System.Drawing.Point(919, 481);
             this.textBox640.Multiline = true;
             this.textBox640.Name = "textBox640";
             this.textBox640.Size = new System.Drawing.Size(62, 19);
@@ -7615,7 +7615,7 @@
             // 
             // textBox641
             // 
-            this.textBox641.Location = new System.Drawing.Point(921, 507);
+            this.textBox641.Location = new System.Drawing.Point(919, 507);
             this.textBox641.Multiline = true;
             this.textBox641.Name = "textBox641";
             this.textBox641.Size = new System.Drawing.Size(62, 19);
@@ -7623,7 +7623,7 @@
             // 
             // textBox634
             // 
-            this.textBox634.Location = new System.Drawing.Point(921, 533);
+            this.textBox634.Location = new System.Drawing.Point(919, 533);
             this.textBox634.Multiline = true;
             this.textBox634.Name = "textBox634";
             this.textBox634.Size = new System.Drawing.Size(62, 19);
@@ -7631,7 +7631,7 @@
             // 
             // textBox632
             // 
-            this.textBox632.Location = new System.Drawing.Point(921, 559);
+            this.textBox632.Location = new System.Drawing.Point(919, 559);
             this.textBox632.Multiline = true;
             this.textBox632.Name = "textBox632";
             this.textBox632.Size = new System.Drawing.Size(62, 19);
@@ -7639,7 +7639,7 @@
             // 
             // textBox637
             // 
-            this.textBox637.Location = new System.Drawing.Point(921, 585);
+            this.textBox637.Location = new System.Drawing.Point(919, 585);
             this.textBox637.Multiline = true;
             this.textBox637.Name = "textBox637";
             this.textBox637.Size = new System.Drawing.Size(62, 19);
@@ -7647,7 +7647,7 @@
             // 
             // textBox636
             // 
-            this.textBox636.Location = new System.Drawing.Point(921, 611);
+            this.textBox636.Location = new System.Drawing.Point(919, 611);
             this.textBox636.Multiline = true;
             this.textBox636.Name = "textBox636";
             this.textBox636.Size = new System.Drawing.Size(62, 19);
@@ -7655,7 +7655,7 @@
             // 
             // textBox643
             // 
-            this.textBox643.Location = new System.Drawing.Point(921, 637);
+            this.textBox643.Location = new System.Drawing.Point(919, 637);
             this.textBox643.Multiline = true;
             this.textBox643.Name = "textBox643";
             this.textBox643.Size = new System.Drawing.Size(62, 19);
@@ -7663,7 +7663,7 @@
             // 
             // textBox644
             // 
-            this.textBox644.Location = new System.Drawing.Point(921, 663);
+            this.textBox644.Location = new System.Drawing.Point(919, 663);
             this.textBox644.Multiline = true;
             this.textBox644.Name = "textBox644";
             this.textBox644.Size = new System.Drawing.Size(62, 19);
@@ -7671,7 +7671,7 @@
             // 
             // textBox645
             // 
-            this.textBox645.Location = new System.Drawing.Point(921, 689);
+            this.textBox645.Location = new System.Drawing.Point(919, 689);
             this.textBox645.Multiline = true;
             this.textBox645.Name = "textBox645";
             this.textBox645.Size = new System.Drawing.Size(62, 19);
@@ -7679,7 +7679,7 @@
             // 
             // textBox646
             // 
-            this.textBox646.Location = new System.Drawing.Point(921, 715);
+            this.textBox646.Location = new System.Drawing.Point(919, 715);
             this.textBox646.Multiline = true;
             this.textBox646.Name = "textBox646";
             this.textBox646.Size = new System.Drawing.Size(62, 19);
@@ -7687,7 +7687,7 @@
             // 
             // textBox647
             // 
-            this.textBox647.Location = new System.Drawing.Point(921, 741);
+            this.textBox647.Location = new System.Drawing.Point(919, 741);
             this.textBox647.Multiline = true;
             this.textBox647.Name = "textBox647";
             this.textBox647.Size = new System.Drawing.Size(62, 19);
@@ -7695,7 +7695,7 @@
             // 
             // textBox648
             // 
-            this.textBox648.Location = new System.Drawing.Point(921, 767);
+            this.textBox648.Location = new System.Drawing.Point(919, 767);
             this.textBox648.Multiline = true;
             this.textBox648.Name = "textBox648";
             this.textBox648.Size = new System.Drawing.Size(62, 19);
@@ -7703,7 +7703,7 @@
             // 
             // textBox649
             // 
-            this.textBox649.Location = new System.Drawing.Point(921, 793);
+            this.textBox649.Location = new System.Drawing.Point(919, 793);
             this.textBox649.Multiline = true;
             this.textBox649.Name = "textBox649";
             this.textBox649.Size = new System.Drawing.Size(62, 19);
@@ -7711,7 +7711,7 @@
             // 
             // textBox650
             // 
-            this.textBox650.Location = new System.Drawing.Point(921, 819);
+            this.textBox650.Location = new System.Drawing.Point(919, 819);
             this.textBox650.Multiline = true;
             this.textBox650.Name = "textBox650";
             this.textBox650.Size = new System.Drawing.Size(62, 19);
@@ -7719,7 +7719,7 @@
             // 
             // textBox651
             // 
-            this.textBox651.Location = new System.Drawing.Point(921, 845);
+            this.textBox651.Location = new System.Drawing.Point(919, 845);
             this.textBox651.Multiline = true;
             this.textBox651.Name = "textBox651";
             this.textBox651.Size = new System.Drawing.Size(62, 19);
@@ -7727,7 +7727,7 @@
             // 
             // textBox652
             // 
-            this.textBox652.Location = new System.Drawing.Point(921, 871);
+            this.textBox652.Location = new System.Drawing.Point(919, 871);
             this.textBox652.Multiline = true;
             this.textBox652.Name = "textBox652";
             this.textBox652.Size = new System.Drawing.Size(62, 19);
