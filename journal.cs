@@ -15,7 +15,7 @@ namespace journal_kurilov
     {
         public int zapolneno=0;
         public int schet = 0;
-        public int beznb=0;
+        public int snb=0;
         public double summ=0;
         public int x = 0;
         public int y=0;
@@ -113,8 +113,15 @@ namespace journal_kurilov
         }
         public void endcheck_zap(string group,string month)
         {
-            File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/endcheck.txt", monthcheck.ToString());
-        }
+            try
+            {
+                File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/endcheck.txt", monthcheck.ToString());
+            }
+            catch(Exception ex)
+            {
+                File.Create($@"C:/electron_journal/{group}/{month}/data/endcheck.txt").Close();
+            }
+            }
         public void createdir(string group,string month)//создание директорий
         {
             Directory.CreateDirectory($@"C:/electron_journal/{group}");
@@ -646,129 +653,130 @@ namespace journal_kurilov
                         zapolneno = 1;
                     }
                 }
-                //..конец подсчета заполненных клеток
-                //подсчет клеток без нб и их мест
+                
                 else
                 {
                     zapolneno = 0;
                 }
+                //..конец подсчета заполненных клеток
+                //подсчет клеток без нб и их мест
                 if (textBox37.Text == "нб" || textBox37.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[1] = true;
                 }
                 if (textBox36.Text == "нб" || textBox36.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[2] = true;
                 }
                 if (textBox35.Text == "нб" || textBox35.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[3] = true;
                 }
                 if (textBox34.Text == "нб" || textBox34.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[4] = true;
                 }
                 if (textBox33.Text == "нб" || textBox33.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[5] = true;
                 }
                 if (textBox32.Text == "нб" || textBox32.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[6] = true;
                 }
                 if (textBox31.Text == "нб" || textBox31.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[7] = true;
                 }
                 if (textBox30.Text == "нб" || textBox30.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[8] = true;
                 }
                 if (textBox29.Text == "Нб" || textBox29.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[9] = true;
                 }
                 if (textBox28.Text == "нб" || textBox28.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[10] = true;
                 }
                 if (textBox27.Text == "нб" || textBox27.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[11] = true;
                 }
                 if (textBox26.Text == "нб" || textBox26.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[12] = true;
                 }
                 if (textBox25.Text == "нб" || textBox25.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[13] = true;
                 }
                 if (textBox24.Text == "нб" || textBox24.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[14] = true;
                 }
                 if (textBox38.Text == "нб" || textBox38.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[15] = true;
                 }
                 if (textBox39.Text == "нб" || textBox39.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[16] = true;
                 }
                 if (textBox23.Text == "нб" || textBox23.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[17] = true;
                 }
                 if (textBox40.Text == "нб" || textBox40.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[18] = true;
                 }
                 if (textBox22.Text == "нб" || textBox22.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[19] = true;
                 }
                 if (textBox21.Text == "нб" || textBox21.Text == "")
                 {
-                    beznb++;
+                    snb++;
                     zapolneno--;
                     check[20] = true;
                 }
@@ -867,10 +875,10 @@ namespace journal_kurilov
                     }
                 }
                 //..конец счета среднего значения с учетом всех факторов
-                summ = summ / (20 - beznb);
+                summ = summ / (20 - snb);
                 textBox623.Text = Convert.ToString(summ);
                 summ = 0;
-                beznb = 0;
+                snb = 0;
                 monthcheck = true;
                 endcheck_zap(group_loc,month_loc);
             }
