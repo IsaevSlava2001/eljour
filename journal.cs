@@ -27,11 +27,11 @@ namespace journal_kurilov
         public void createdirit (string group,string month)//создание итоговых директорий
         {
             Directory.CreateDirectory($@"C:/electron_journal/{group}");
-            Directory.CreateDirectory($@"C:/electron_journal/{group}/itog");
-            Directory.CreateDirectory($@"C:/electron_journal/{group}/itog/data");
+            Directory.CreateDirectory($@"C:/electron_journal/{group}/{month}");
+            Directory.CreateDirectory($@"C:/electron_journal/{group}/{month}/data");
             for (int g = 1; g < 31; g++)
             {
-                File.Create($@"C:/electron_journal/{group}/itog/data/{g}").Close(); ;
+                File.Create($@"C:/electron_journal/{group}/{month}/data/{g}").Close(); ;
             }
         }
         public void loadmark(string group,string month)//загрузка на одну группу на один месяц
@@ -111,17 +111,11 @@ namespace journal_kurilov
                 endcheck();
             }
         }
-        public void endcheck_zap(string group,string month)
+        public void endcheck_zap(string group, string month)
         {
-            try
-            {
                 File.WriteAllText($@"C:/electron_journal/{group}/{month}/data/endcheck.txt", monthcheck.ToString());
-            }
-            catch(Exception ex)
-            {
-                File.Create($@"C:/electron_journal/{group}/{month}/data/endcheck.txt").Close();
-            }
-            }
+            
+        }
         public void createdir(string group,string month)//создание директорий
         {
             Directory.CreateDirectory($@"C:/electron_journal/{group}");
@@ -167,6 +161,7 @@ namespace journal_kurilov
                 createdir("PKS-21OP03", "may");
                 createdir("PKS-21OP03", "june");
                 createdirit("PKS-21OP03", "itog2");
+                createdirit("PKS-21OP03", "itog_year");
 
 
             }
@@ -185,6 +180,8 @@ namespace journal_kurilov
                 createdir("PKS-23OP03", "may");
                 createdir("PKS-23OP03", "june");
                 createdirit("PKS-23OP03", "itog2");
+                createdirit("PKS-23OP03", "itog_year");
+
             }
             if (!Directory.Exists(@"C:/electron_journal/PKS-33OP12"))
             {
@@ -201,6 +198,8 @@ namespace journal_kurilov
                 createdir("PKS-33OP12", "may");
                 createdir("PKS-33OP12", "june");
                 createdirit("PKS-33OP12", "itog2");
+                createdirit("PKS-33OP12", "itog_year");
+
             }
             if (!Directory.Exists(@"C:/electron_journal/PKS-22OP03"))
             {
@@ -217,6 +216,8 @@ namespace journal_kurilov
                 createdir("PKS-22OP03", "may");
                 createdir("PKS-22OP03", "june");
                 createdirit("PKS-22OP03", "itog2");
+                createdirit("PKS-22OP03", "itog_year");
+
 
 
             }
@@ -236,6 +237,8 @@ namespace journal_kurilov
                 createdir("IKS-21OP04", "may");
                 createdir("IKS-21OP04", "june");
                 createdirit("IKS-21OP04", "itog2");
+                createdirit("IKS-21OP04", "itog_year");
+
 
 
             }
@@ -255,6 +258,8 @@ namespace journal_kurilov
                 createdir("IB-21OP07", "may");
                 createdir("IB-21OP07", "june");
                 createdirit("IB-21OP07", "itog2");
+                createdirit("IB-21OP07", "itog_year");
+
 
 
 
@@ -275,6 +280,7 @@ namespace journal_kurilov
                 createdir("EO-21OP02", "may");
                 createdir("EO-21OP02", "june");
                 createdirit("EO-21OP02", "itog2");
+                createdirit("EO-21OP02", "itog_year");
 
 
             }
@@ -294,6 +300,7 @@ namespace journal_kurilov
                 createdir("EO-21OP04", "may");
                 createdir("EO-21OP04", "june");
                 createdirit("EO-21OP04", "itog2");
+                createdirit("EO-21OP04", "itog_year");
 
 
             }
@@ -313,6 +320,7 @@ namespace journal_kurilov
                 createdir("PKS-31OP12", "may");
                 createdir("PKS-31OP12", "june");
                 createdirit("PKS-31OP12", "itog2");
+                createdirit("PKS-31OP12", "itog_year");
 
 
             }
@@ -332,6 +340,7 @@ namespace journal_kurilov
                 createdir("PKS-32OP12", "may");
                 createdir("PKS-32OP12", "june");
                 createdirit("PKS-32OP12", "itog2");
+                createdirit("PKS-32OP12", "itog_year");
 
 
             }
@@ -353,6 +362,7 @@ namespace journal_kurilov
                 createdir("PKS-34OP12", "may");
                 createdir("PKS-34OP12", "june");
                 createdirit("PKS-34OP12", "itog2");
+                createdirit("PKS-34OP12", "itog_year");
 
 
 
@@ -375,6 +385,7 @@ namespace journal_kurilov
                 createdir("PKS-34UP01", "may");
                 createdir("PKS-34UP01", "june");
                 createdirit("PKS-34UP01", "itog2");
+                createdirit("PKS-34UP01", "itog_year");
 
 
             }
@@ -394,6 +405,7 @@ namespace journal_kurilov
                 createdir("PKS-34UP02", "may");
                 createdir("PKS-34UP02", "june");
                 createdirit("PKS-34UP02", "itog2");
+                createdirit("PKS-34UP02", "itog_year");
 
 
 
@@ -417,6 +429,8 @@ namespace journal_kurilov
                 createdir("EO-31OP02", "may");
                 createdir("EO-31OP02", "june");
                 createdirit("EO-31OP02", "itog2");
+                createdirit("EO-31OP02", "itog_year");
+
             }
 
             if (!Directory.Exists(@"C:/electron_journal/EO-31OP09"))
@@ -434,6 +448,8 @@ namespace journal_kurilov
                 createdir("EO-31OP09", "may");
                 createdir("EO-31OP09", "june");
                 createdirit("EO-31OP09", "itog2");
+                createdirit("EO-21OP09", "itog_year");
+
             }
 
             if (!Directory.Exists(@"C:/electron_journal/PKS-41PDP"))
@@ -451,6 +467,8 @@ namespace journal_kurilov
                 createdir("PKS-41PDP", "may");
                 createdir("PKS-41PDP", "june");
                 createdirit("PKS-41PDP", "itog2");
+                createdirit("PKS-41PDP", "itog_year");
+
             }
 
             if (!Directory.Exists(@"C:/electron_journal/PKS-41GIA"))
@@ -468,6 +486,8 @@ namespace journal_kurilov
                 createdir("PKS-41GIA", "may");
                 createdir("PKS-41GIA", "june");
                 createdirit("PKS-41GIA", "itog2");
+                createdirit("PKS-41GIA", "itog_year");
+
             }
 
             if (!Directory.Exists(@"C:/electron_journal/EO-41OP09"))
@@ -485,6 +505,8 @@ namespace journal_kurilov
                 createdir("EO-41OP09", "may");
                 createdir("EO-41OP09", "june");
                 createdirit("EO-41OP09", "itog2");
+                createdirit("EO-41OP09", "itog_year");
+
             }
             MessageBox.Show("Все загрузилось. Спасибо за ожидание.");
            
@@ -503,6 +525,13 @@ namespace journal_kurilov
             if (comboBox1.Text == "ПКС-21 ОП.03 ТСИ")
             {
                group_loc = "PKS-21OP03";
+            }
+
+            if ((comboBox1.Text != "Выбрать месяц")&& (comboBox2.Text != "Выбрать группу"))
+            {
+                button1.Enabled = true;
+                button4.Enabled = true;
+                button2.Enabled = true;
             }
         }
 
@@ -921,6 +950,63 @@ namespace journal_kurilov
             if (comboBox2.Text == "Сентябрь")
             {
                 month_loc = "september";
+            }
+            else if(comboBox2.Text == "Октябрь")
+            {
+                month_loc = "october";
+            }
+
+            else if (comboBox2.Text == "Ноябрь")
+            {
+                month_loc = "november";
+            }
+
+            else if (comboBox2.Text == "Декабрь")
+            {
+                month_loc = "december";
+            }
+
+            else if (comboBox2.Text == "Итог1")
+            {
+                month_loc = "itog1";
+            }
+            else if (comboBox2.Text == "Январь")
+            {
+                month_loc = "january";
+            }
+            else if (comboBox2.Text == "Февраль")
+            {
+                month_loc = "februrary";
+            }
+            else if (comboBox2.Text == "Март")
+            {
+                month_loc = "march";
+            }
+            else if (comboBox2.Text == "Апрель")
+            {
+                month_loc = "april";
+            }
+            else if (comboBox2.Text == "Май")
+            {
+                month_loc = "may";
+            }
+            else if (comboBox2.Text == "Июнь")
+            {
+                month_loc = "june";
+            }
+            else if (comboBox2.Text == "Итог2")
+            {
+                month_loc = "itog2";
+            }
+            else if (comboBox2.Text == "Итог год")
+            {
+                month_loc = "itog_year";
+            }
+            if ((comboBox1.Text != "Выбрать месяц" ) && (comboBox2.Text != "Выбрать группу"))
+            {
+                button1.Enabled = true;
+                button4.Enabled = true;
+                button2.Enabled = true;
             }
         }
 

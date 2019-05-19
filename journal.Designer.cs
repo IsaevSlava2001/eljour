@@ -839,6 +839,7 @@
             // button1
             // 
             this.button1.AccessibleDescription = "Подсчет среднего значения за месяц.";
+            this.button1.Enabled = false;
             this.button1.Location = new System.Drawing.Point(408, 22);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 37);
@@ -854,7 +855,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 37.32768F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 62.67232F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 103F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 105F));
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel33, 1, 32);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel32, 1, 31);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel31, 1, 30);
@@ -952,7 +953,7 @@
             this.tableLayoutPanel1.Controls.Add(this.textBox651, 2, 31);
             this.tableLayoutPanel1.Controls.Add(this.textBox652, 2, 32);
             this.tableLayoutPanel1.Controls.Add(this.comboBox2, 1, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(-40, -130);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(-40, 64);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 33;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -1035,7 +1036,7 @@
             this.tableLayoutPanel33.Controls.Add(this.textBox618, 14, 0);
             this.tableLayoutPanel33.Controls.Add(this.textBox619, 15, 0);
             this.tableLayoutPanel33.Controls.Add(this.textBox620, 17, 0);
-            this.tableLayoutPanel33.Location = new System.Drawing.Point(343, 871);
+            this.tableLayoutPanel33.Location = new System.Drawing.Point(342, 871);
             this.tableLayoutPanel33.Name = "tableLayoutPanel33";
             this.tableLayoutPanel33.RowCount = 1;
             this.tableLayoutPanel33.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -1227,7 +1228,7 @@
             this.tableLayoutPanel32.Controls.Add(this.textBox598, 14, 0);
             this.tableLayoutPanel32.Controls.Add(this.textBox599, 15, 0);
             this.tableLayoutPanel32.Controls.Add(this.textBox600, 17, 0);
-            this.tableLayoutPanel32.Location = new System.Drawing.Point(343, 845);
+            this.tableLayoutPanel32.Location = new System.Drawing.Point(342, 845);
             this.tableLayoutPanel32.Name = "tableLayoutPanel32";
             this.tableLayoutPanel32.RowCount = 2;
             this.tableLayoutPanel32.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -1419,7 +1420,7 @@
             this.tableLayoutPanel31.Controls.Add(this.textBox578, 14, 0);
             this.tableLayoutPanel31.Controls.Add(this.textBox579, 15, 0);
             this.tableLayoutPanel31.Controls.Add(this.textBox580, 17, 0);
-            this.tableLayoutPanel31.Location = new System.Drawing.Point(343, 819);
+            this.tableLayoutPanel31.Location = new System.Drawing.Point(342, 819);
             this.tableLayoutPanel31.Name = "tableLayoutPanel31";
             this.tableLayoutPanel31.RowCount = 2;
             this.tableLayoutPanel31.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -1611,7 +1612,7 @@
             this.tableLayoutPanel30.Controls.Add(this.textBox558, 14, 0);
             this.tableLayoutPanel30.Controls.Add(this.textBox559, 15, 0);
             this.tableLayoutPanel30.Controls.Add(this.textBox560, 17, 0);
-            this.tableLayoutPanel30.Location = new System.Drawing.Point(343, 793);
+            this.tableLayoutPanel30.Location = new System.Drawing.Point(342, 793);
             this.tableLayoutPanel30.Name = "tableLayoutPanel30";
             this.tableLayoutPanel30.RowCount = 2;
             this.tableLayoutPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -1803,7 +1804,7 @@
             this.tableLayoutPanel29.Controls.Add(this.textBox538, 14, 0);
             this.tableLayoutPanel29.Controls.Add(this.textBox539, 15, 0);
             this.tableLayoutPanel29.Controls.Add(this.textBox540, 17, 0);
-            this.tableLayoutPanel29.Location = new System.Drawing.Point(343, 767);
+            this.tableLayoutPanel29.Location = new System.Drawing.Point(342, 767);
             this.tableLayoutPanel29.Name = "tableLayoutPanel29";
             this.tableLayoutPanel29.RowCount = 2;
             this.tableLayoutPanel29.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -1995,7 +1996,7 @@
             this.tableLayoutPanel28.Controls.Add(this.textBox518, 14, 0);
             this.tableLayoutPanel28.Controls.Add(this.textBox519, 15, 0);
             this.tableLayoutPanel28.Controls.Add(this.textBox520, 17, 0);
-            this.tableLayoutPanel28.Location = new System.Drawing.Point(343, 741);
+            this.tableLayoutPanel28.Location = new System.Drawing.Point(342, 741);
             this.tableLayoutPanel28.Name = "tableLayoutPanel28";
             this.tableLayoutPanel28.RowCount = 2;
             this.tableLayoutPanel28.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -2187,7 +2188,7 @@
             this.tableLayoutPanel27.Controls.Add(this.textBox498, 14, 0);
             this.tableLayoutPanel27.Controls.Add(this.textBox499, 15, 0);
             this.tableLayoutPanel27.Controls.Add(this.textBox500, 17, 0);
-            this.tableLayoutPanel27.Location = new System.Drawing.Point(343, 715);
+            this.tableLayoutPanel27.Location = new System.Drawing.Point(342, 715);
             this.tableLayoutPanel27.Name = "tableLayoutPanel27";
             this.tableLayoutPanel27.RowCount = 2;
             this.tableLayoutPanel27.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -2379,7 +2380,7 @@
             this.tableLayoutPanel26.Controls.Add(this.textBox478, 14, 0);
             this.tableLayoutPanel26.Controls.Add(this.textBox479, 15, 0);
             this.tableLayoutPanel26.Controls.Add(this.textBox480, 17, 0);
-            this.tableLayoutPanel26.Location = new System.Drawing.Point(343, 689);
+            this.tableLayoutPanel26.Location = new System.Drawing.Point(342, 689);
             this.tableLayoutPanel26.Name = "tableLayoutPanel26";
             this.tableLayoutPanel26.RowCount = 2;
             this.tableLayoutPanel26.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -2571,7 +2572,7 @@
             this.tableLayoutPanel25.Controls.Add(this.textBox458, 14, 0);
             this.tableLayoutPanel25.Controls.Add(this.textBox459, 15, 0);
             this.tableLayoutPanel25.Controls.Add(this.textBox460, 17, 0);
-            this.tableLayoutPanel25.Location = new System.Drawing.Point(343, 663);
+            this.tableLayoutPanel25.Location = new System.Drawing.Point(342, 663);
             this.tableLayoutPanel25.Name = "tableLayoutPanel25";
             this.tableLayoutPanel25.RowCount = 2;
             this.tableLayoutPanel25.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -2763,7 +2764,7 @@
             this.tableLayoutPanel24.Controls.Add(this.textBox438, 14, 0);
             this.tableLayoutPanel24.Controls.Add(this.textBox439, 15, 0);
             this.tableLayoutPanel24.Controls.Add(this.textBox440, 17, 0);
-            this.tableLayoutPanel24.Location = new System.Drawing.Point(343, 637);
+            this.tableLayoutPanel24.Location = new System.Drawing.Point(342, 637);
             this.tableLayoutPanel24.Name = "tableLayoutPanel24";
             this.tableLayoutPanel24.RowCount = 2;
             this.tableLayoutPanel24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -2955,7 +2956,7 @@
             this.tableLayoutPanel23.Controls.Add(this.textBox418, 14, 0);
             this.tableLayoutPanel23.Controls.Add(this.textBox419, 15, 0);
             this.tableLayoutPanel23.Controls.Add(this.textBox420, 17, 0);
-            this.tableLayoutPanel23.Location = new System.Drawing.Point(343, 611);
+            this.tableLayoutPanel23.Location = new System.Drawing.Point(342, 611);
             this.tableLayoutPanel23.Name = "tableLayoutPanel23";
             this.tableLayoutPanel23.RowCount = 2;
             this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -3147,7 +3148,7 @@
             this.tableLayoutPanel22.Controls.Add(this.textBox398, 14, 0);
             this.tableLayoutPanel22.Controls.Add(this.textBox399, 15, 0);
             this.tableLayoutPanel22.Controls.Add(this.textBox400, 17, 0);
-            this.tableLayoutPanel22.Location = new System.Drawing.Point(343, 585);
+            this.tableLayoutPanel22.Location = new System.Drawing.Point(342, 585);
             this.tableLayoutPanel22.Name = "tableLayoutPanel22";
             this.tableLayoutPanel22.RowCount = 2;
             this.tableLayoutPanel22.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -3339,7 +3340,7 @@
             this.tableLayoutPanel21.Controls.Add(this.textBox378, 14, 0);
             this.tableLayoutPanel21.Controls.Add(this.textBox379, 15, 0);
             this.tableLayoutPanel21.Controls.Add(this.textBox380, 17, 0);
-            this.tableLayoutPanel21.Location = new System.Drawing.Point(343, 559);
+            this.tableLayoutPanel21.Location = new System.Drawing.Point(342, 559);
             this.tableLayoutPanel21.Name = "tableLayoutPanel21";
             this.tableLayoutPanel21.RowCount = 2;
             this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -3531,7 +3532,7 @@
             this.tableLayoutPanel20.Controls.Add(this.textBox358, 14, 0);
             this.tableLayoutPanel20.Controls.Add(this.textBox359, 15, 0);
             this.tableLayoutPanel20.Controls.Add(this.textBox360, 17, 0);
-            this.tableLayoutPanel20.Location = new System.Drawing.Point(343, 533);
+            this.tableLayoutPanel20.Location = new System.Drawing.Point(342, 533);
             this.tableLayoutPanel20.Name = "tableLayoutPanel20";
             this.tableLayoutPanel20.RowCount = 2;
             this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -3723,7 +3724,7 @@
             this.tableLayoutPanel19.Controls.Add(this.textBox338, 14, 0);
             this.tableLayoutPanel19.Controls.Add(this.textBox339, 15, 0);
             this.tableLayoutPanel19.Controls.Add(this.textBox340, 17, 0);
-            this.tableLayoutPanel19.Location = new System.Drawing.Point(343, 507);
+            this.tableLayoutPanel19.Location = new System.Drawing.Point(342, 507);
             this.tableLayoutPanel19.Name = "tableLayoutPanel19";
             this.tableLayoutPanel19.RowCount = 2;
             this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -3915,7 +3916,7 @@
             this.tableLayoutPanel18.Controls.Add(this.textBox318, 14, 0);
             this.tableLayoutPanel18.Controls.Add(this.textBox319, 15, 0);
             this.tableLayoutPanel18.Controls.Add(this.textBox320, 17, 0);
-            this.tableLayoutPanel18.Location = new System.Drawing.Point(343, 481);
+            this.tableLayoutPanel18.Location = new System.Drawing.Point(342, 481);
             this.tableLayoutPanel18.Name = "tableLayoutPanel18";
             this.tableLayoutPanel18.RowCount = 2;
             this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -4107,7 +4108,7 @@
             this.tableLayoutPanel17.Controls.Add(this.textBox298, 14, 0);
             this.tableLayoutPanel17.Controls.Add(this.textBox299, 15, 0);
             this.tableLayoutPanel17.Controls.Add(this.textBox300, 17, 0);
-            this.tableLayoutPanel17.Location = new System.Drawing.Point(343, 455);
+            this.tableLayoutPanel17.Location = new System.Drawing.Point(342, 455);
             this.tableLayoutPanel17.Name = "tableLayoutPanel17";
             this.tableLayoutPanel17.RowCount = 2;
             this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -4299,7 +4300,7 @@
             this.tableLayoutPanel16.Controls.Add(this.textBox278, 14, 0);
             this.tableLayoutPanel16.Controls.Add(this.textBox279, 15, 0);
             this.tableLayoutPanel16.Controls.Add(this.textBox280, 17, 0);
-            this.tableLayoutPanel16.Location = new System.Drawing.Point(343, 429);
+            this.tableLayoutPanel16.Location = new System.Drawing.Point(342, 429);
             this.tableLayoutPanel16.Name = "tableLayoutPanel16";
             this.tableLayoutPanel16.RowCount = 2;
             this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -4491,7 +4492,7 @@
             this.tableLayoutPanel15.Controls.Add(this.textBox258, 14, 0);
             this.tableLayoutPanel15.Controls.Add(this.textBox259, 15, 0);
             this.tableLayoutPanel15.Controls.Add(this.textBox260, 17, 0);
-            this.tableLayoutPanel15.Location = new System.Drawing.Point(343, 403);
+            this.tableLayoutPanel15.Location = new System.Drawing.Point(342, 403);
             this.tableLayoutPanel15.Name = "tableLayoutPanel15";
             this.tableLayoutPanel15.RowCount = 2;
             this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -4683,7 +4684,7 @@
             this.tableLayoutPanel14.Controls.Add(this.textBox238, 14, 0);
             this.tableLayoutPanel14.Controls.Add(this.textBox239, 15, 0);
             this.tableLayoutPanel14.Controls.Add(this.textBox240, 17, 0);
-            this.tableLayoutPanel14.Location = new System.Drawing.Point(343, 377);
+            this.tableLayoutPanel14.Location = new System.Drawing.Point(342, 377);
             this.tableLayoutPanel14.Name = "tableLayoutPanel14";
             this.tableLayoutPanel14.RowCount = 2;
             this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -4875,7 +4876,7 @@
             this.tableLayoutPanel13.Controls.Add(this.textBox218, 14, 0);
             this.tableLayoutPanel13.Controls.Add(this.textBox219, 15, 0);
             this.tableLayoutPanel13.Controls.Add(this.textBox220, 17, 0);
-            this.tableLayoutPanel13.Location = new System.Drawing.Point(343, 351);
+            this.tableLayoutPanel13.Location = new System.Drawing.Point(342, 351);
             this.tableLayoutPanel13.Name = "tableLayoutPanel13";
             this.tableLayoutPanel13.RowCount = 2;
             this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -5067,7 +5068,7 @@
             this.tableLayoutPanel12.Controls.Add(this.textBox198, 14, 0);
             this.tableLayoutPanel12.Controls.Add(this.textBox199, 15, 0);
             this.tableLayoutPanel12.Controls.Add(this.textBox200, 17, 0);
-            this.tableLayoutPanel12.Location = new System.Drawing.Point(343, 325);
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(342, 325);
             this.tableLayoutPanel12.Name = "tableLayoutPanel12";
             this.tableLayoutPanel12.RowCount = 2;
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -5259,7 +5260,7 @@
             this.tableLayoutPanel11.Controls.Add(this.textBox178, 14, 0);
             this.tableLayoutPanel11.Controls.Add(this.textBox179, 15, 0);
             this.tableLayoutPanel11.Controls.Add(this.textBox180, 17, 0);
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(343, 299);
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(342, 299);
             this.tableLayoutPanel11.Name = "tableLayoutPanel11";
             this.tableLayoutPanel11.RowCount = 2;
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -5451,7 +5452,7 @@
             this.tableLayoutPanel10.Controls.Add(this.textBox158, 14, 0);
             this.tableLayoutPanel10.Controls.Add(this.textBox159, 15, 0);
             this.tableLayoutPanel10.Controls.Add(this.textBox160, 17, 0);
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(343, 273);
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(342, 273);
             this.tableLayoutPanel10.Name = "tableLayoutPanel10";
             this.tableLayoutPanel10.RowCount = 2;
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -5643,7 +5644,7 @@
             this.tableLayoutPanel9.Controls.Add(this.textBox138, 14, 0);
             this.tableLayoutPanel9.Controls.Add(this.textBox139, 15, 0);
             this.tableLayoutPanel9.Controls.Add(this.textBox140, 17, 0);
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(343, 247);
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(342, 247);
             this.tableLayoutPanel9.Name = "tableLayoutPanel9";
             this.tableLayoutPanel9.RowCount = 2;
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -5835,7 +5836,7 @@
             this.tableLayoutPanel8.Controls.Add(this.textBox118, 14, 0);
             this.tableLayoutPanel8.Controls.Add(this.textBox119, 15, 0);
             this.tableLayoutPanel8.Controls.Add(this.textBox120, 17, 0);
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(343, 221);
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(342, 221);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 2;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -6027,7 +6028,7 @@
             this.tableLayoutPanel7.Controls.Add(this.textBox98, 14, 0);
             this.tableLayoutPanel7.Controls.Add(this.textBox99, 15, 0);
             this.tableLayoutPanel7.Controls.Add(this.textBox100, 17, 0);
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(343, 195);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(342, 195);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 2;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -6219,7 +6220,7 @@
             this.tableLayoutPanel5.Controls.Add(this.textBox58, 14, 0);
             this.tableLayoutPanel5.Controls.Add(this.textBox59, 15, 0);
             this.tableLayoutPanel5.Controls.Add(this.textBox60, 17, 0);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(343, 143);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(342, 143);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -6372,7 +6373,7 @@
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Location = new System.Drawing.Point(4, 1);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(332, 50);
+            this.label3.Size = new System.Drawing.Size(331, 50);
             this.label3.TabIndex = 2;
             this.label3.Text = "Месяц";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -6380,9 +6381,9 @@
             // label2
             // 
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Location = new System.Drawing.Point(911, 1);
+            this.label2.Location = new System.Drawing.Point(909, 1);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 50);
+            this.label2.Size = new System.Drawing.Size(100, 50);
             this.label2.TabIndex = 1;
             this.label2.Text = "итог";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -6431,7 +6432,7 @@
             this.tableLayoutPanel2.Controls.Add(this.textBox15, 14, 0);
             this.tableLayoutPanel2.Controls.Add(this.textBox16, 15, 0);
             this.tableLayoutPanel2.Controls.Add(this.textBox18, 17, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(343, 55);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(342, 55);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -6643,7 +6644,7 @@
             this.tableLayoutPanel3.Controls.Add(this.label6, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.label5, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.label4, 8, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(343, 86);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(342, 86);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -6815,7 +6816,7 @@
             // 
             this.label24.Location = new System.Drawing.Point(4, 52);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(332, 30);
+            this.label24.Size = new System.Drawing.Size(331, 30);
             this.label24.TabIndex = 5;
             this.label24.Text = "Число";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -6824,7 +6825,7 @@
             // 
             this.label25.Location = new System.Drawing.Point(4, 83);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(332, 30);
+            this.label25.Size = new System.Drawing.Size(331, 30);
             this.label25.TabIndex = 6;
             this.label25.Text = "Номер пары";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -6834,7 +6835,7 @@
             this.label26.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label26.Location = new System.Drawing.Point(4, 114);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(332, 23);
+            this.label26.Size = new System.Drawing.Size(331, 23);
             this.label26.TabIndex = 7;
             // 
             // label27
@@ -6842,7 +6843,7 @@
             this.label27.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label27.Location = new System.Drawing.Point(4, 140);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(332, 23);
+            this.label27.Size = new System.Drawing.Size(331, 23);
             this.label27.TabIndex = 8;
             // 
             // label28
@@ -6850,7 +6851,7 @@
             this.label28.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label28.Location = new System.Drawing.Point(4, 166);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(332, 23);
+            this.label28.Size = new System.Drawing.Size(331, 23);
             this.label28.TabIndex = 9;
             // 
             // label29
@@ -6858,7 +6859,7 @@
             this.label29.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label29.Location = new System.Drawing.Point(4, 192);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(332, 23);
+            this.label29.Size = new System.Drawing.Size(331, 23);
             this.label29.TabIndex = 10;
             // 
             // label30
@@ -6866,7 +6867,7 @@
             this.label30.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label30.Location = new System.Drawing.Point(4, 218);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(332, 23);
+            this.label30.Size = new System.Drawing.Size(331, 23);
             this.label30.TabIndex = 11;
             // 
             // label31
@@ -6874,7 +6875,7 @@
             this.label31.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label31.Location = new System.Drawing.Point(4, 244);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(332, 23);
+            this.label31.Size = new System.Drawing.Size(331, 23);
             this.label31.TabIndex = 12;
             // 
             // label32
@@ -6882,7 +6883,7 @@
             this.label32.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label32.Location = new System.Drawing.Point(4, 270);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(332, 23);
+            this.label32.Size = new System.Drawing.Size(331, 23);
             this.label32.TabIndex = 13;
             // 
             // label33
@@ -6890,7 +6891,7 @@
             this.label33.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label33.Location = new System.Drawing.Point(4, 296);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(332, 23);
+            this.label33.Size = new System.Drawing.Size(331, 23);
             this.label33.TabIndex = 14;
             // 
             // label34
@@ -6898,7 +6899,7 @@
             this.label34.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label34.Location = new System.Drawing.Point(4, 322);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(332, 23);
+            this.label34.Size = new System.Drawing.Size(331, 23);
             this.label34.TabIndex = 15;
             // 
             // label38
@@ -6906,7 +6907,7 @@
             this.label38.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label38.Location = new System.Drawing.Point(4, 348);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(332, 23);
+            this.label38.Size = new System.Drawing.Size(331, 23);
             this.label38.TabIndex = 18;
             // 
             // label36
@@ -6914,7 +6915,7 @@
             this.label36.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label36.Location = new System.Drawing.Point(4, 400);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(332, 23);
+            this.label36.Size = new System.Drawing.Size(331, 23);
             this.label36.TabIndex = 17;
             // 
             // label37
@@ -6922,7 +6923,7 @@
             this.label37.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label37.Location = new System.Drawing.Point(4, 374);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(332, 23);
+            this.label37.Size = new System.Drawing.Size(331, 23);
             this.label37.TabIndex = 17;
             // 
             // label35
@@ -6930,7 +6931,7 @@
             this.label35.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label35.Location = new System.Drawing.Point(4, 426);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(332, 23);
+            this.label35.Size = new System.Drawing.Size(331, 23);
             this.label35.TabIndex = 16;
             // 
             // label40
@@ -6938,7 +6939,7 @@
             this.label40.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label40.Location = new System.Drawing.Point(4, 452);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(332, 23);
+            this.label40.Size = new System.Drawing.Size(331, 23);
             this.label40.TabIndex = 20;
             // 
             // label41
@@ -6946,7 +6947,7 @@
             this.label41.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label41.Location = new System.Drawing.Point(4, 478);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(332, 23);
+            this.label41.Size = new System.Drawing.Size(331, 23);
             this.label41.TabIndex = 21;
             // 
             // label42
@@ -6954,7 +6955,7 @@
             this.label42.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label42.Location = new System.Drawing.Point(4, 504);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(332, 23);
+            this.label42.Size = new System.Drawing.Size(331, 23);
             this.label42.TabIndex = 22;
             // 
             // label43
@@ -6962,7 +6963,7 @@
             this.label43.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label43.Location = new System.Drawing.Point(4, 530);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(332, 23);
+            this.label43.Size = new System.Drawing.Size(331, 23);
             this.label43.TabIndex = 23;
             // 
             // label44
@@ -6970,7 +6971,7 @@
             this.label44.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label44.Location = new System.Drawing.Point(4, 556);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(332, 23);
+            this.label44.Size = new System.Drawing.Size(331, 23);
             this.label44.TabIndex = 24;
             // 
             // label39
@@ -6978,7 +6979,7 @@
             this.label39.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label39.Location = new System.Drawing.Point(4, 582);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(332, 23);
+            this.label39.Size = new System.Drawing.Size(331, 23);
             this.label39.TabIndex = 19;
             // 
             // label47
@@ -6986,7 +6987,7 @@
             this.label47.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label47.Location = new System.Drawing.Point(4, 608);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(332, 23);
+            this.label47.Size = new System.Drawing.Size(331, 23);
             this.label47.TabIndex = 27;
             // 
             // label45
@@ -6994,7 +6995,7 @@
             this.label45.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label45.Location = new System.Drawing.Point(4, 634);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(332, 23);
+            this.label45.Size = new System.Drawing.Size(331, 23);
             this.label45.TabIndex = 25;
             // 
             // label46
@@ -7002,7 +7003,7 @@
             this.label46.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label46.Location = new System.Drawing.Point(4, 660);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(332, 23);
+            this.label46.Size = new System.Drawing.Size(331, 23);
             this.label46.TabIndex = 26;
             // 
             // label48
@@ -7010,7 +7011,7 @@
             this.label48.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label48.Location = new System.Drawing.Point(4, 686);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(332, 23);
+            this.label48.Size = new System.Drawing.Size(331, 23);
             this.label48.TabIndex = 28;
             // 
             // label49
@@ -7018,7 +7019,7 @@
             this.label49.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label49.Location = new System.Drawing.Point(4, 712);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(332, 23);
+            this.label49.Size = new System.Drawing.Size(331, 23);
             this.label49.TabIndex = 29;
             // 
             // label52
@@ -7026,7 +7027,7 @@
             this.label52.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label52.Location = new System.Drawing.Point(4, 738);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(332, 23);
+            this.label52.Size = new System.Drawing.Size(331, 23);
             this.label52.TabIndex = 32;
             // 
             // label51
@@ -7034,7 +7035,7 @@
             this.label51.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label51.Location = new System.Drawing.Point(4, 790);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(332, 23);
+            this.label51.Size = new System.Drawing.Size(331, 23);
             this.label51.TabIndex = 31;
             // 
             // label50
@@ -7042,7 +7043,7 @@
             this.label50.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label50.Location = new System.Drawing.Point(4, 764);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(332, 23);
+            this.label50.Size = new System.Drawing.Size(331, 23);
             this.label50.TabIndex = 30;
             // 
             // label55
@@ -7050,7 +7051,7 @@
             this.label55.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label55.Location = new System.Drawing.Point(4, 816);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(332, 23);
+            this.label55.Size = new System.Drawing.Size(331, 23);
             this.label55.TabIndex = 35;
             // 
             // label54
@@ -7058,7 +7059,7 @@
             this.label54.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label54.Location = new System.Drawing.Point(4, 842);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(332, 23);
+            this.label54.Size = new System.Drawing.Size(331, 23);
             this.label54.TabIndex = 34;
             // 
             // label53
@@ -7066,7 +7067,7 @@
             this.label53.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label53.Location = new System.Drawing.Point(4, 868);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(332, 23);
+            this.label53.Size = new System.Drawing.Size(331, 23);
             this.label53.TabIndex = 33;
             // 
             // tableLayoutPanel4
@@ -7113,7 +7114,7 @@
             this.tableLayoutPanel4.Controls.Add(this.textBox38, 14, 0);
             this.tableLayoutPanel4.Controls.Add(this.textBox39, 15, 0);
             this.tableLayoutPanel4.Controls.Add(this.textBox40, 17, 0);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(343, 117);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(342, 117);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 2;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -7325,7 +7326,7 @@
             this.tableLayoutPanel6.Controls.Add(this.textBox78, 14, 0);
             this.tableLayoutPanel6.Controls.Add(this.textBox79, 15, 0);
             this.tableLayoutPanel6.Controls.Add(this.textBox80, 17, 0);
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(343, 169);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(342, 169);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 2;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -7475,7 +7476,7 @@
             // 
             // textBox623
             // 
-            this.textBox623.Location = new System.Drawing.Point(911, 117);
+            this.textBox623.Location = new System.Drawing.Point(909, 117);
             this.textBox623.Multiline = true;
             this.textBox623.Name = "textBox623";
             this.textBox623.Size = new System.Drawing.Size(62, 19);
@@ -7483,7 +7484,7 @@
             // 
             // textBox624
             // 
-            this.textBox624.Location = new System.Drawing.Point(911, 143);
+            this.textBox624.Location = new System.Drawing.Point(909, 143);
             this.textBox624.Multiline = true;
             this.textBox624.Name = "textBox624";
             this.textBox624.Size = new System.Drawing.Size(62, 19);
@@ -7491,7 +7492,7 @@
             // 
             // textBox625
             // 
-            this.textBox625.Location = new System.Drawing.Point(911, 169);
+            this.textBox625.Location = new System.Drawing.Point(909, 169);
             this.textBox625.Multiline = true;
             this.textBox625.Name = "textBox625";
             this.textBox625.Size = new System.Drawing.Size(62, 19);
@@ -7499,7 +7500,7 @@
             // 
             // textBox626
             // 
-            this.textBox626.Location = new System.Drawing.Point(911, 195);
+            this.textBox626.Location = new System.Drawing.Point(909, 195);
             this.textBox626.Multiline = true;
             this.textBox626.Name = "textBox626";
             this.textBox626.Size = new System.Drawing.Size(62, 19);
@@ -7507,7 +7508,7 @@
             // 
             // textBox627
             // 
-            this.textBox627.Location = new System.Drawing.Point(911, 221);
+            this.textBox627.Location = new System.Drawing.Point(909, 221);
             this.textBox627.Multiline = true;
             this.textBox627.Name = "textBox627";
             this.textBox627.Size = new System.Drawing.Size(62, 19);
@@ -7515,7 +7516,7 @@
             // 
             // textBox628
             // 
-            this.textBox628.Location = new System.Drawing.Point(911, 247);
+            this.textBox628.Location = new System.Drawing.Point(909, 247);
             this.textBox628.Multiline = true;
             this.textBox628.Name = "textBox628";
             this.textBox628.Size = new System.Drawing.Size(62, 19);
@@ -7523,7 +7524,7 @@
             // 
             // textBox629
             // 
-            this.textBox629.Location = new System.Drawing.Point(911, 273);
+            this.textBox629.Location = new System.Drawing.Point(909, 273);
             this.textBox629.Multiline = true;
             this.textBox629.Name = "textBox629";
             this.textBox629.Size = new System.Drawing.Size(62, 19);
@@ -7531,7 +7532,7 @@
             // 
             // textBox630
             // 
-            this.textBox630.Location = new System.Drawing.Point(911, 299);
+            this.textBox630.Location = new System.Drawing.Point(909, 299);
             this.textBox630.Multiline = true;
             this.textBox630.Name = "textBox630";
             this.textBox630.Size = new System.Drawing.Size(62, 19);
@@ -7539,7 +7540,7 @@
             // 
             // textBox631
             // 
-            this.textBox631.Location = new System.Drawing.Point(911, 325);
+            this.textBox631.Location = new System.Drawing.Point(909, 325);
             this.textBox631.Multiline = true;
             this.textBox631.Name = "textBox631";
             this.textBox631.Size = new System.Drawing.Size(62, 19);
@@ -7547,7 +7548,7 @@
             // 
             // textBox642
             // 
-            this.textBox642.Location = new System.Drawing.Point(911, 351);
+            this.textBox642.Location = new System.Drawing.Point(909, 351);
             this.textBox642.Multiline = true;
             this.textBox642.Name = "textBox642";
             this.textBox642.Size = new System.Drawing.Size(62, 19);
@@ -7555,7 +7556,7 @@
             // 
             // textBox635
             // 
-            this.textBox635.Location = new System.Drawing.Point(911, 377);
+            this.textBox635.Location = new System.Drawing.Point(909, 377);
             this.textBox635.Multiline = true;
             this.textBox635.Name = "textBox635";
             this.textBox635.Size = new System.Drawing.Size(62, 19);
@@ -7563,7 +7564,7 @@
             // 
             // textBox638
             // 
-            this.textBox638.Location = new System.Drawing.Point(911, 403);
+            this.textBox638.Location = new System.Drawing.Point(909, 403);
             this.textBox638.Multiline = true;
             this.textBox638.Name = "textBox638";
             this.textBox638.Size = new System.Drawing.Size(62, 19);
@@ -7571,7 +7572,7 @@
             // 
             // textBox633
             // 
-            this.textBox633.Location = new System.Drawing.Point(911, 429);
+            this.textBox633.Location = new System.Drawing.Point(909, 429);
             this.textBox633.Multiline = true;
             this.textBox633.Name = "textBox633";
             this.textBox633.Size = new System.Drawing.Size(62, 19);
@@ -7579,7 +7580,7 @@
             // 
             // textBox639
             // 
-            this.textBox639.Location = new System.Drawing.Point(911, 455);
+            this.textBox639.Location = new System.Drawing.Point(909, 455);
             this.textBox639.Multiline = true;
             this.textBox639.Name = "textBox639";
             this.textBox639.Size = new System.Drawing.Size(62, 19);
@@ -7587,7 +7588,7 @@
             // 
             // textBox640
             // 
-            this.textBox640.Location = new System.Drawing.Point(911, 481);
+            this.textBox640.Location = new System.Drawing.Point(909, 481);
             this.textBox640.Multiline = true;
             this.textBox640.Name = "textBox640";
             this.textBox640.Size = new System.Drawing.Size(62, 19);
@@ -7595,7 +7596,7 @@
             // 
             // textBox641
             // 
-            this.textBox641.Location = new System.Drawing.Point(911, 507);
+            this.textBox641.Location = new System.Drawing.Point(909, 507);
             this.textBox641.Multiline = true;
             this.textBox641.Name = "textBox641";
             this.textBox641.Size = new System.Drawing.Size(62, 19);
@@ -7603,7 +7604,7 @@
             // 
             // textBox634
             // 
-            this.textBox634.Location = new System.Drawing.Point(911, 533);
+            this.textBox634.Location = new System.Drawing.Point(909, 533);
             this.textBox634.Multiline = true;
             this.textBox634.Name = "textBox634";
             this.textBox634.Size = new System.Drawing.Size(62, 19);
@@ -7611,7 +7612,7 @@
             // 
             // textBox632
             // 
-            this.textBox632.Location = new System.Drawing.Point(911, 559);
+            this.textBox632.Location = new System.Drawing.Point(909, 559);
             this.textBox632.Multiline = true;
             this.textBox632.Name = "textBox632";
             this.textBox632.Size = new System.Drawing.Size(62, 19);
@@ -7619,7 +7620,7 @@
             // 
             // textBox637
             // 
-            this.textBox637.Location = new System.Drawing.Point(911, 585);
+            this.textBox637.Location = new System.Drawing.Point(909, 585);
             this.textBox637.Multiline = true;
             this.textBox637.Name = "textBox637";
             this.textBox637.Size = new System.Drawing.Size(62, 19);
@@ -7627,7 +7628,7 @@
             // 
             // textBox636
             // 
-            this.textBox636.Location = new System.Drawing.Point(911, 611);
+            this.textBox636.Location = new System.Drawing.Point(909, 611);
             this.textBox636.Multiline = true;
             this.textBox636.Name = "textBox636";
             this.textBox636.Size = new System.Drawing.Size(62, 19);
@@ -7635,7 +7636,7 @@
             // 
             // textBox643
             // 
-            this.textBox643.Location = new System.Drawing.Point(911, 637);
+            this.textBox643.Location = new System.Drawing.Point(909, 637);
             this.textBox643.Multiline = true;
             this.textBox643.Name = "textBox643";
             this.textBox643.Size = new System.Drawing.Size(62, 19);
@@ -7643,7 +7644,7 @@
             // 
             // textBox644
             // 
-            this.textBox644.Location = new System.Drawing.Point(911, 663);
+            this.textBox644.Location = new System.Drawing.Point(909, 663);
             this.textBox644.Multiline = true;
             this.textBox644.Name = "textBox644";
             this.textBox644.Size = new System.Drawing.Size(62, 19);
@@ -7651,7 +7652,7 @@
             // 
             // textBox645
             // 
-            this.textBox645.Location = new System.Drawing.Point(911, 689);
+            this.textBox645.Location = new System.Drawing.Point(909, 689);
             this.textBox645.Multiline = true;
             this.textBox645.Name = "textBox645";
             this.textBox645.Size = new System.Drawing.Size(62, 19);
@@ -7659,7 +7660,7 @@
             // 
             // textBox646
             // 
-            this.textBox646.Location = new System.Drawing.Point(911, 715);
+            this.textBox646.Location = new System.Drawing.Point(909, 715);
             this.textBox646.Multiline = true;
             this.textBox646.Name = "textBox646";
             this.textBox646.Size = new System.Drawing.Size(62, 19);
@@ -7667,7 +7668,7 @@
             // 
             // textBox647
             // 
-            this.textBox647.Location = new System.Drawing.Point(911, 741);
+            this.textBox647.Location = new System.Drawing.Point(909, 741);
             this.textBox647.Multiline = true;
             this.textBox647.Name = "textBox647";
             this.textBox647.Size = new System.Drawing.Size(62, 19);
@@ -7675,7 +7676,7 @@
             // 
             // textBox648
             // 
-            this.textBox648.Location = new System.Drawing.Point(911, 767);
+            this.textBox648.Location = new System.Drawing.Point(909, 767);
             this.textBox648.Multiline = true;
             this.textBox648.Name = "textBox648";
             this.textBox648.Size = new System.Drawing.Size(62, 19);
@@ -7683,7 +7684,7 @@
             // 
             // textBox649
             // 
-            this.textBox649.Location = new System.Drawing.Point(911, 793);
+            this.textBox649.Location = new System.Drawing.Point(909, 793);
             this.textBox649.Multiline = true;
             this.textBox649.Name = "textBox649";
             this.textBox649.Size = new System.Drawing.Size(62, 19);
@@ -7691,7 +7692,7 @@
             // 
             // textBox650
             // 
-            this.textBox650.Location = new System.Drawing.Point(911, 819);
+            this.textBox650.Location = new System.Drawing.Point(909, 819);
             this.textBox650.Multiline = true;
             this.textBox650.Name = "textBox650";
             this.textBox650.Size = new System.Drawing.Size(62, 19);
@@ -7699,7 +7700,7 @@
             // 
             // textBox651
             // 
-            this.textBox651.Location = new System.Drawing.Point(911, 845);
+            this.textBox651.Location = new System.Drawing.Point(909, 845);
             this.textBox651.Multiline = true;
             this.textBox651.Name = "textBox651";
             this.textBox651.Size = new System.Drawing.Size(62, 19);
@@ -7707,7 +7708,7 @@
             // 
             // textBox652
             // 
-            this.textBox652.Location = new System.Drawing.Point(911, 871);
+            this.textBox652.Location = new System.Drawing.Point(909, 871);
             this.textBox652.Multiline = true;
             this.textBox652.Name = "textBox652";
             this.textBox652.Size = new System.Drawing.Size(62, 19);
@@ -7730,8 +7731,8 @@
             "Май",
             "Июнь",
             "Итог2",
-            "итог год"});
-            this.comboBox2.Location = new System.Drawing.Point(343, 4);
+            "Итог год"});
+            this.comboBox2.Location = new System.Drawing.Point(342, 4);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(519, 21);
             this.comboBox2.TabIndex = 72;
@@ -7741,6 +7742,7 @@
             // button4
             // 
             this.button4.AccessibleDescription = "Сохранение текущих оценок.";
+            this.button4.Enabled = false;
             this.button4.Location = new System.Drawing.Point(489, 22);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(72, 37);
@@ -7752,6 +7754,7 @@
             // button2
             // 
             this.button2.AccessibleDescription = "Подгрузка оценок.";
+            this.button2.Enabled = false;
             this.button2.Location = new System.Drawing.Point(578, 22);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 36);
