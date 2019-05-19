@@ -526,8 +526,76 @@ namespace journal_kurilov
             {
                group_loc = "PKS-21OP03";
             }
+            else if(comboBox1.Text == "ПКС - 22 ОП.03 ТСИ")
+            {
+                group_loc = "PKS-22OP03";
+            }
+            else if (comboBox1.Text == "ПКС - 23 ОП.03 ТСИ")
+            {
+                group_loc = "PKS-23OP03";
+            }
+            else if (comboBox1.Text == "ИКС - 21 ОП.04 ВТ")
+            {
+                group_loc = "IKS-21OP04";
+            }
+            else if (comboBox1.Text == "ИБ - 21 ОП.07 ТСИ")
+            {
+                group_loc = "IB-21OP07";
+            }
+            else if (comboBox1.Text == "ЭО - 21 ОП.02 ТМ 4")
+            {
+                group_loc = "EO-21OP02";
+            }
+            else if (comboBox1.Text == "ЭО - 21 ОП.04 ТИ")
+            {
+                group_loc = "EO-21OP04";
+            }
+            else if (comboBox1.Text == "ПКС - 31 ОП.12 ОПАИС")
+            {
+                group_loc = "PKS-31OP12";
+            }
+            else if (comboBox1.Text == "ПКС - 32 ОП.12 ОПАИС")
+            {
+                group_loc = "PKS-32OP12";
+            }
+            else if (comboBox1.Text == "ПКС - 33 ОП.12 ОПАИС")
+            {
+                group_loc = "PKS-33OP12";
+            }
+            else if (comboBox1.Text == "ПКС - 34 ОП.12 ОПАИС")
+            {
+                group_loc = "PKS-34OP12";
+            }
+            else if (comboBox1.Text == "ПКС - 34 УП.01 РПМПО для КС")
+            {
+                group_loc = "PKS-34UP01";
+            }
+            else if (comboBox1.Text == "ПКС - 34 УП.02 Р и АБД")
+            {
+                group_loc = "PKS-21OP03";
+            }
+            else if (comboBox1.Text == "ЭО - 31 ОП.02 ТМ")
+            {
+                group_loc = "PKS-34UP02";
+            }
+            else if (comboBox1.Text == "ЭО - 31 ОП.09 ВТ")
+            {
+                group_loc = "EO-31OP09";
+            }
+            else if (comboBox1.Text == "ПКС - 41 ПДП ПП")
+            {
+                group_loc = "PKS-41PDP";
+            }
+            else if (comboBox1.Text == "ПКС - 41 ГИА консультации")
+            {
+                group_loc = "PKS-41GIA";
+            }
+            else if (comboBox1.Text == "ЭО - 41 ОП.09 ВТ")
+            {
+                group_loc = "EO-41OP09";
+            }
 
-            if ((comboBox1.Text != "Выбрать месяц")&& (comboBox2.Text != "Выбрать группу"))
+            if ((comboBox2.Text != "Выбрать месяц")&& (comboBox1.Text != "Выбрать группу"))
             {
                 button1.Enabled = true;
                 button4.Enabled = true;
@@ -1002,7 +1070,7 @@ namespace journal_kurilov
             {
                 month_loc = "itog_year";
             }
-            if ((comboBox1.Text != "Выбрать месяц" ) && (comboBox2.Text != "Выбрать группу"))
+            if ((comboBox2.Text != "Выбрать месяц" ) && (comboBox1.Text != "Выбрать группу"))
             {
                 button1.Enabled = true;
                 button4.Enabled = true;
