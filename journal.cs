@@ -1351,6 +1351,1481 @@ namespace journal_kurilov
                 snb = 0;
                 monthcheck = true;
                 endcheck_zap(group_loc, month_loc);
+
+                //3 строка
+
+
+                if (textBox77.Text != "")
+                {
+                    if (textBox76.Text != "")
+                    {
+                        if (textBox75.Text != "")
+                        {
+                            if (textBox74.Text != "")
+                            {
+                                if (textBox73.Text != "")
+                                {
+                                    if (textBox72.Text != "")
+                                    {
+                                        if (textBox71.Text != "")
+                                        {
+                                            if (textBox70.Text != "")
+                                            {
+                                                if (textBox69.Text != "")
+                                                {
+                                                    if (textBox68.Text != "")
+                                                    {
+                                                        if (textBox67.Text != "")
+                                                        {
+                                                            if (textBox66.Text != "")
+                                                            {
+                                                                if (textBox65.Text != "")
+                                                                {
+                                                                    if (textBox64.Text != "")
+                                                                    {
+                                                                        if (textBox78.Text != "")
+                                                                        {
+                                                                            if (textBox79.Text != "")
+                                                                            {
+                                                                                if (textBox63.Text != "")
+                                                                                {
+                                                                                    if (textBox80.Text != "")
+                                                                                    {
+                                                                                        if (textBox62.Text != "")
+                                                                                        {
+                                                                                            if (textBox61.Text != "")
+                                                                                            {
+                                                                                                zapolneno = 20;
+                                                                                            }
+                                                                                            else
+                                                                                            {
+                                                                                                zapolneno = 19;
+                                                                                            }
+                                                                                        }
+                                                                                        else
+                                                                                        {
+                                                                                            zapolneno = 18;
+                                                                                        }
+                                                                                    }
+                                                                                    else
+                                                                                    {
+                                                                                        zapolneno = 17;
+                                                                                    }
+                                                                                }
+                                                                                else
+                                                                                {
+                                                                                    zapolneno = 16;
+                                                                                }
+                                                                            }
+                                                                            else
+                                                                            {
+                                                                                zapolneno = 15;
+                                                                            }
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                            zapolneno = 14;
+                                                                        }
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        zapolneno = 13;
+                                                                    }
+                                                                }
+                                                                else
+                                                                {
+                                                                    zapolneno = 12;
+                                                                }
+                                                            }
+                                                            else
+                                                            {
+                                                                zapolneno = 11;
+                                                            }
+                                                        }
+                                                        else
+                                                        {
+                                                            zapolneno = 10;
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        zapolneno = 9;
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    zapolneno = 8;
+                                                }
+                                            }
+                                            else
+                                            {
+                                                zapolneno = 7;
+                                            }
+                                        }
+                                        else
+                                        {
+                                            zapolneno = 6;
+                                        }
+                                    }
+                                    else
+                                    {
+                                        zapolneno = 5;
+                                    }
+                                }
+                                else
+                                {
+                                    zapolneno = 4;
+                                }
+                            }
+                            else
+                            {
+                                zapolneno = 3;
+                            }
+                        }
+                        else
+                        {
+                            zapolneno = 2;
+                        }
+                    }
+                    else
+                    {
+                        zapolneno = 1;
+                    }
+                }
+
+                else
+                {
+                    zapolneno = 0;
+                }
+                //..конец подсчета заполненных клеток
+                //подсчет клеток без нб и их мест
+                if (textBox77.Text == "нб" || textBox77.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[1] = true;
+                }
+                if (textBox76.Text == "нб" || textBox76.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[2] = true;
+                }
+                if (textBox75.Text == "нб" || textBox75.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[3] = true;
+                }
+                if (textBox74.Text == "нб" || textBox74.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[4] = true;
+                }
+                if (textBox73.Text == "нб" || textBox73.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[5] = true;
+                }
+                if (textBox72.Text == "нб" || textBox72.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[6] = true;
+                }
+                if (textBox71.Text == "нб" || textBox71.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[7] = true;
+                }
+                if (textBox70.Text == "нб" || textBox70.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[8] = true;
+                }
+                if (textBox69.Text == "Нб" || textBox69.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[9] = true;
+                }
+                if (textBox68.Text == "нб" || textBox68.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[10] = true;
+                }
+                if (textBox67.Text == "нб" || textBox67.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[11] = true;
+                }
+                if (textBox66.Text == "нб" || textBox66.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[12] = true;
+                }
+                if (textBox65.Text == "нб" || textBox65.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[13] = true;
+                }
+                if (textBox64.Text == "нб" || textBox4.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[14] = true;
+                }
+                if (textBox78.Text == "нб" || textBox78.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[15] = true;
+                }
+                if (textBox79.Text == "нб" || textBox79.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[16] = true;
+                }
+                if (textBox63.Text == "нб" || textBox63.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[17] = true;
+                }
+                if (textBox80.Text == "нб" || textBox80.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[18] = true;
+                }
+                if (textBox62.Text == "нб" || textBox62.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[19] = true;
+                }
+                if (textBox61.Text == "нб" || textBox61.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[20] = true;
+                }
+                //..конец подсчета клеток без нб и их мест
+                //счет среднего значения с учетом всех факторов
+                for (int i = 1; i < 21; i++)
+                {
+                    if (schet != 20 - x)
+                    {
+                        if (check[i] != true)
+                        {
+                            switch (i)
+                            {
+                                case 1:
+                                    summ = summ + Convert.ToInt32(textBox77.Text);
+                                    schet++;
+                                    break;
+                                case 2:
+                                    summ = summ + Convert.ToInt32(textBox76.Text);
+                                    schet++;
+                                    break;
+                                case 3:
+                                    summ = summ + Convert.ToInt32(textBox75.Text);
+                                    schet++;
+                                    break;
+                                case 4:
+                                    summ = summ + Convert.ToInt32(textBox74.Text);
+                                    schet++;
+                                    break;
+                                case 5:
+                                    summ = summ + Convert.ToInt32(textBox73.Text);
+                                    schet++;
+                                    break;
+                                case 6:
+                                    summ = summ + Convert.ToInt32(textBox72.Text);
+                                    schet++;
+                                    break;
+                                case 7:
+                                    summ = summ + Convert.ToInt32(textBox71.Text);
+                                    schet++;
+                                    break;
+                                case 8:
+                                    summ = summ + Convert.ToInt32(textBox70.Text);
+                                    schet++;
+                                    break;
+                                case 9:
+                                    summ = summ + Convert.ToInt32(textBox69.Text);
+                                    schet++;
+                                    break;
+                                case 10:
+                                    summ = summ + Convert.ToInt32(textBox68.Text);
+                                    schet++;
+                                    break;
+                                case 11:
+                                    summ = summ + Convert.ToInt32(textBox67.Text);
+                                    schet++;
+                                    break;
+                                case 12:
+                                    summ = summ + Convert.ToInt32(textBox66.Text);
+                                    schet++;
+                                    break;
+                                case 13:
+                                    summ = summ + Convert.ToInt32(textBox65.Text);
+                                    schet++;
+                                    break;
+                                case 14:
+                                    summ = summ + Convert.ToInt32(textBox64.Text);
+                                    schet++;
+                                    break;
+                                case 15:
+                                    summ = summ + Convert.ToInt32(textBox78.Text);
+                                    schet++;
+                                    break;
+                                case 16:
+                                    summ = summ + Convert.ToInt32(textBox79.Text);
+                                    schet++;
+                                    break;
+                                case 17:
+                                    summ = summ + Convert.ToInt32(textBox63.Text);
+                                    schet++;
+                                    break;
+                                case 18:
+                                    summ = summ + Convert.ToInt32(textBox80.Text);
+                                    schet++;
+                                    break;
+                                case 19:
+                                    summ = summ + Convert.ToInt32(textBox62.Text);
+                                    schet++;
+                                    break;
+                                case 20:
+                                    summ = summ + Convert.ToInt32(textBox61.Text);
+                                    schet++;
+                                    break;
+                            }
+                        }
+                    }
+                }
+                //..конец счета среднего значения с учетом всех факторов
+                summ = summ / (20 - snb);
+                textBox625.Text = Convert.ToString(summ);
+                summ = 0;
+                snb = 0;
+                monthcheck = true;
+                endcheck_zap(group_loc, month_loc);
+
+                //4 строка
+
+                if (textBox97.Text != "")
+                {
+                    if (textBox96.Text != "")
+                    {
+                        if (textBox95.Text != "")
+                        {
+                            if (textBox94.Text != "")
+                            {
+                                if (textBox93.Text != "")
+                                {
+                                    if (textBox92.Text != "")
+                                    {
+                                        if (textBox91.Text != "")
+                                        {
+                                            if (textBox90.Text != "")
+                                            {
+                                                if (textBox89.Text != "")
+                                                {
+                                                    if (textBox88.Text != "")
+                                                    {
+                                                        if (textBox87.Text != "")
+                                                        {
+                                                            if (textBox86.Text != "")
+                                                            {
+                                                                if (textBox85.Text != "")
+                                                                {
+                                                                    if (textBox84.Text != "")
+                                                                    {
+                                                                        if (textBox98.Text != "")
+                                                                        {
+                                                                            if (textBox99.Text != "")
+                                                                            {
+                                                                                if (textBox83.Text != "")
+                                                                                {
+                                                                                    if (textBox100.Text != "")
+                                                                                    {
+                                                                                        if (textBox82.Text != "")
+                                                                                        {
+                                                                                            if (textBox81.Text != "")
+                                                                                            {
+                                                                                                zapolneno = 20;
+                                                                                            }
+                                                                                            else
+                                                                                            {
+                                                                                                zapolneno = 19;
+                                                                                            }
+                                                                                        }
+                                                                                        else
+                                                                                        {
+                                                                                            zapolneno = 18;
+                                                                                        }
+                                                                                    }
+                                                                                    else
+                                                                                    {
+                                                                                        zapolneno = 17;
+                                                                                    }
+                                                                                }
+                                                                                else
+                                                                                {
+                                                                                    zapolneno = 16;
+                                                                                }
+                                                                            }
+                                                                            else
+                                                                            {
+                                                                                zapolneno = 15;
+                                                                            }
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                            zapolneno = 14;
+                                                                        }
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        zapolneno = 13;
+                                                                    }
+                                                                }
+                                                                else
+                                                                {
+                                                                    zapolneno = 12;
+                                                                }
+                                                            }
+                                                            else
+                                                            {
+                                                                zapolneno = 11;
+                                                            }
+                                                        }
+                                                        else
+                                                        {
+                                                            zapolneno = 10;
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        zapolneno = 9;
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    zapolneno = 8;
+                                                }
+                                            }
+                                            else
+                                            {
+                                                zapolneno = 7;
+                                            }
+                                        }
+                                        else
+                                        {
+                                            zapolneno = 6;
+                                        }
+                                    }
+                                    else
+                                    {
+                                        zapolneno = 5;
+                                    }
+                                }
+                                else
+                                {
+                                    zapolneno = 4;
+                                }
+                            }
+                            else
+                            {
+                                zapolneno = 3;
+                            }
+                        }
+                        else
+                        {
+                            zapolneno = 2;
+                        }
+                    }
+                    else
+                    {
+                        zapolneno = 1;
+                    }
+                }
+
+                else
+                {
+                    zapolneno = 0;
+                }
+                //..конец подсчета заполненных клеток
+                //подсчет клеток без нб и их мест
+                if (textBox97.Text == "нб" || textBox97.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[1] = true;
+                }
+                if (textBox96.Text == "нб" || textBox96.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[2] = true;
+                }
+                if (textBox95.Text == "нб" || textBox95.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[3] = true;
+                }
+                if (textBox94.Text == "нб" || textBox94.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[4] = true;
+                }
+                if (textBox93.Text == "нб" || textBox93.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[5] = true;
+                }
+                if (textBox92.Text == "нб" || textBox92.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[6] = true;
+                }
+                if (textBox91.Text == "нб" || textBox91.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[7] = true;
+                }
+                if (textBox90.Text == "нб" || textBox90.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[8] = true;
+                }
+                if (textBox89.Text == "Нб" || textBox89.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[9] = true;
+                }
+                if (textBox88.Text == "нб" || textBox88.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[10] = true;
+                }
+                if (textBox87.Text == "нб" || textBox87.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[11] = true;
+                }
+                if (textBox86.Text == "нб" || textBox86.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[12] = true;
+                }
+                if (textBox85.Text == "нб" || textBox85.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[13] = true;
+                }
+                if (textBox84.Text == "нб" || textBox84.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[14] = true;
+                }
+                if (textBox98.Text == "нб" || textBox98.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[15] = true;
+                }
+                if (textBox99.Text == "нб" || textBox99.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[16] = true;
+                }
+                if (textBox83.Text == "нб" || textBox83.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[17] = true;
+                }
+                if (textBox100.Text == "нб" || textBox100.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[18] = true;
+                }
+                if (textBox82.Text == "нб" || textBox82.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[19] = true;
+                }
+                if (textBox81.Text == "нб" || textBox81.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[20] = true;
+                }
+                //..конец подсчета клеток без нб и их мест
+                //счет среднего значения с учетом всех факторов
+                for (int i = 1; i < 21; i++)
+                {
+                    if (schet != 20 - x)
+                    {
+                        if (check[i] != true)
+                        {
+                            switch (i)
+                            {
+                                case 1:
+                                    summ = summ + Convert.ToInt32(textBox97.Text);
+                                    schet++;
+                                    break;
+                                case 2:
+                                    summ = summ + Convert.ToInt32(textBox96.Text);
+                                    schet++;
+                                    break;
+                                case 3:
+                                    summ = summ + Convert.ToInt32(textBox95.Text);
+                                    schet++;
+                                    break;
+                                case 4:
+                                    summ = summ + Convert.ToInt32(textBox94.Text);
+                                    schet++;
+                                    break;
+                                case 5:
+                                    summ = summ + Convert.ToInt32(textBox93.Text);
+                                    schet++;
+                                    break;
+                                case 6:
+                                    summ = summ + Convert.ToInt32(textBox92.Text);
+                                    schet++;
+                                    break;
+                                case 7:
+                                    summ = summ + Convert.ToInt32(textBox91.Text);
+                                    schet++;
+                                    break;
+                                case 8:
+                                    summ = summ + Convert.ToInt32(textBox90.Text);
+                                    schet++;
+                                    break;
+                                case 9:
+                                    summ = summ + Convert.ToInt32(textBox89.Text);
+                                    schet++;
+                                    break;
+                                case 10:
+                                    summ = summ + Convert.ToInt32(textBox88.Text);
+                                    schet++;
+                                    break;
+                                case 11:
+                                    summ = summ + Convert.ToInt32(textBox87.Text);
+                                    schet++;
+                                    break;
+                                case 12:
+                                    summ = summ + Convert.ToInt32(textBox86.Text);
+                                    schet++;
+                                    break;
+                                case 13:
+                                    summ = summ + Convert.ToInt32(textBox85.Text);
+                                    schet++;
+                                    break;
+                                case 14:
+                                    summ = summ + Convert.ToInt32(textBox84.Text);
+                                    schet++;
+                                    break;
+                                case 15:
+                                    summ = summ + Convert.ToInt32(textBox98.Text);
+                                    schet++;
+                                    break;
+                                case 16:
+                                    summ = summ + Convert.ToInt32(textBox99.Text);
+                                    schet++;
+                                    break;
+                                case 17:
+                                    summ = summ + Convert.ToInt32(textBox83.Text);
+                                    schet++;
+                                    break;
+                                case 18:
+                                    summ = summ + Convert.ToInt32(textBox100.Text);
+                                    schet++;
+                                    break;
+                                case 19:
+                                    summ = summ + Convert.ToInt32(textBox82.Text);
+                                    schet++;
+                                    break;
+                                case 20:
+                                    summ = summ + Convert.ToInt32(textBox81.Text);
+                                    schet++;
+                                    break;
+                            }
+                        }
+                    }
+                }
+                //..конец счета среднего значения с учетом всех факторов
+                summ = summ / (20 - snb);
+                textBox626.Text = Convert.ToString(summ);
+                summ = 0;
+                snb = 0;
+                monthcheck = true;
+                endcheck_zap(group_loc, month_loc);
+
+                //5 строка
+
+                if (textBox117.Text != "")
+                {
+                    if (textBox116.Text != "")
+                    {
+                        if (textBox115.Text != "")
+                        {
+                            if (textBox114.Text != "")
+                            {
+                                if (textBox113.Text != "")
+                                {
+                                    if (textBox112.Text != "")
+                                    {
+                                        if (textBox111.Text != "")
+                                        {
+                                            if (textBox110.Text != "")
+                                            {
+                                                if (textBox109.Text != "")
+                                                {
+                                                    if (textBox108.Text != "")
+                                                    {
+                                                        if (textBox107.Text != "")
+                                                        {
+                                                            if (textBox106.Text != "")
+                                                            {
+                                                                if (textBox105.Text != "")
+                                                                {
+                                                                    if (textBox104.Text != "")
+                                                                    {
+                                                                        if (textBox118.Text != "")
+                                                                        {
+                                                                            if (textBox119.Text != "")
+                                                                            {
+                                                                                if (textBox103.Text != "")
+                                                                                {
+                                                                                    if (textBox120.Text != "")
+                                                                                    {
+                                                                                        if (textBox102.Text != "")
+                                                                                        {
+                                                                                            if (textBox101.Text != "")
+                                                                                            {
+                                                                                                zapolneno = 20;
+                                                                                            }
+                                                                                            else
+                                                                                            {
+                                                                                                zapolneno = 19;
+                                                                                            }
+                                                                                        }
+                                                                                        else
+                                                                                        {
+                                                                                            zapolneno = 18;
+                                                                                        }
+                                                                                    }
+                                                                                    else
+                                                                                    {
+                                                                                        zapolneno = 17;
+                                                                                    }
+                                                                                }
+                                                                                else
+                                                                                {
+                                                                                    zapolneno = 16;
+                                                                                }
+                                                                            }
+                                                                            else
+                                                                            {
+                                                                                zapolneno = 15;
+                                                                            }
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                            zapolneno = 14;
+                                                                        }
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        zapolneno = 13;
+                                                                    }
+                                                                }
+                                                                else
+                                                                {
+                                                                    zapolneno = 12;
+                                                                }
+                                                            }
+                                                            else
+                                                            {
+                                                                zapolneno = 11;
+                                                            }
+                                                        }
+                                                        else
+                                                        {
+                                                            zapolneno = 10;
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        zapolneno = 9;
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    zapolneno = 8;
+                                                }
+                                            }
+                                            else
+                                            {
+                                                zapolneno = 7;
+                                            }
+                                        }
+                                        else
+                                        {
+                                            zapolneno = 6;
+                                        }
+                                    }
+                                    else
+                                    {
+                                        zapolneno = 5;
+                                    }
+                                }
+                                else
+                                {
+                                    zapolneno = 4;
+                                }
+                            }
+                            else
+                            {
+                                zapolneno = 3;
+                            }
+                        }
+                        else
+                        {
+                            zapolneno = 2;
+                        }
+                    }
+                    else
+                    {
+                        zapolneno = 1;
+                    }
+                }
+
+                else
+                {
+                    zapolneno = 0;
+                }
+                //..конец подсчета заполненных клеток
+                //подсчет клеток без нб и их мест
+                if (textBox117.Text == "нб" || textBox117.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[1] = true;
+                }
+                if (textBox116.Text == "нб" || textBox116.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[2] = true;
+                }
+                if (textBox115.Text == "нб" || textBox115.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[3] = true;
+                }
+                if (textBox114.Text == "нб" || textBox114.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[4] = true;
+                }
+                if (textBox113.Text == "нб" || textBox113.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[5] = true;
+                }
+                if (textBox112.Text == "нб" || textBox112.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[6] = true;
+                }
+                if (textBox111.Text == "нб" || textBox111.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[7] = true;
+                }
+                if (textBox110.Text == "нб" || textBox110.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[8] = true;
+                }
+                if (textBox109.Text == "Нб" || textBox109.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[9] = true;
+                }
+                if (textBox108.Text == "нб" || textBox108.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[10] = true;
+                }
+                if (textBox107.Text == "нб" || textBox107.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[11] = true;
+                }
+                if (textBox106.Text == "нб" || textBox106.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[12] = true;
+                }
+                if (textBox105.Text == "нб" || textBox105.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[13] = true;
+                }
+                if (textBox104.Text == "нб" || textBox104.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[14] = true;
+                }
+                if (textBox118.Text == "нб" || textBox118.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[15] = true;
+                }
+                if (textBox19.Text == "нб" || textBox119.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[16] = true;
+                }
+                if (textBox103.Text == "нб" || textBox103.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[17] = true;
+                }
+                if (textBox120.Text == "нб" || textBox120.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[18] = true;
+                }
+                if (textBox102.Text == "нб" || textBox102.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[19] = true;
+                }
+                if (textBox101.Text == "нб" || textBox101.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[20] = true;
+                }
+                //..конец подсчета клеток без нб и их мест
+                //счет среднего значения с учетом всех факторов
+                for (int i = 1; i < 21; i++)
+                {
+                    if (schet != 20 - x)
+                    {
+                        if (check[i] != true)
+                        {
+                            switch (i)
+                            {
+                                case 1:
+                                    summ = summ + Convert.ToInt32(textBox117.Text);
+                                    schet++;
+                                    break;
+                                case 2:
+                                    summ = summ + Convert.ToInt32(textBox116.Text);
+                                    schet++;
+                                    break;
+                                case 3:
+                                    summ = summ + Convert.ToInt32(textBox115.Text);
+                                    schet++;
+                                    break;
+                                case 4:
+                                    summ = summ + Convert.ToInt32(textBox114.Text);
+                                    schet++;
+                                    break;
+                                case 5:
+                                    summ = summ + Convert.ToInt32(textBox113.Text);
+                                    schet++;
+                                    break;
+                                case 6:
+                                    summ = summ + Convert.ToInt32(textBox112.Text);
+                                    schet++;
+                                    break;
+                                case 7:
+                                    summ = summ + Convert.ToInt32(textBox111.Text);
+                                    schet++;
+                                    break;
+                                case 8:
+                                    summ = summ + Convert.ToInt32(textBox110.Text);
+                                    schet++;
+                                    break;
+                                case 9:
+                                    summ = summ + Convert.ToInt32(textBox109.Text);
+                                    schet++;
+                                    break;
+                                case 10:
+                                    summ = summ + Convert.ToInt32(textBox108.Text);
+                                    schet++;
+                                    break;
+                                case 11:
+                                    summ = summ + Convert.ToInt32(textBox107.Text);
+                                    schet++;
+                                    break;
+                                case 12:
+                                    summ = summ + Convert.ToInt32(textBox106.Text);
+                                    schet++;
+                                    break;
+                                case 13:
+                                    summ = summ + Convert.ToInt32(textBox105.Text);
+                                    schet++;
+                                    break;
+                                case 14:
+                                    summ = summ + Convert.ToInt32(textBox104.Text);
+                                    schet++;
+                                    break;
+                                case 15:
+                                    summ = summ + Convert.ToInt32(textBox118.Text);
+                                    schet++;
+                                    break;
+                                case 16:
+                                    summ = summ + Convert.ToInt32(textBox119.Text);
+                                    schet++;
+                                    break;
+                                case 17:
+                                    summ = summ + Convert.ToInt32(textBox103.Text);
+                                    schet++;
+                                    break;
+                                case 18:
+                                    summ = summ + Convert.ToInt32(textBox120.Text);
+                                    schet++;
+                                    break;
+                                case 19:
+                                    summ = summ + Convert.ToInt32(textBox102.Text);
+                                    schet++;
+                                    break;
+                                case 20:
+                                    summ = summ + Convert.ToInt32(textBox101.Text);
+                                    schet++;
+                                    break;
+                            }
+                        }
+                    }
+                }
+                //..конец счета среднего значения с учетом всех факторов
+                summ = summ / (20 - snb);
+                textBox627.Text = Convert.ToString(summ);
+                summ = 0;
+                snb = 0;
+                monthcheck = true;
+                endcheck_zap(group_loc, month_loc);
+
+                //6 строка
+
+                if (textBox137.Text != "")
+                {
+                    if (textBox136.Text != "")
+                    {
+                        if (textBox135.Text != "")
+                        {
+                            if (textBox134.Text != "")
+                            {
+                                if (textBox133.Text != "")
+                                {
+                                    if (textBox132.Text != "")
+                                    {
+                                        if (textBox131.Text != "")
+                                        {
+                                            if (textBox130.Text != "")
+                                            {
+                                                if (textBox129.Text != "")
+                                                {
+                                                    if (textBox128.Text != "")
+                                                    {
+                                                        if (textBox127.Text != "")
+                                                        {
+                                                            if (textBox126.Text != "")
+                                                            {
+                                                                if (textBox125.Text != "")
+                                                                {
+                                                                    if (textBox124.Text != "")
+                                                                    {
+                                                                        if (textBox138.Text != "")
+                                                                        {
+                                                                            if (textBox139.Text != "")
+                                                                            {
+                                                                                if (textBox123.Text != "")
+                                                                                {
+                                                                                    if (textBox140.Text != "")
+                                                                                    {
+                                                                                        if (textBox122.Text != "")
+                                                                                        {
+                                                                                            if (textBox121.Text != "")
+                                                                                            {
+                                                                                                zapolneno = 20;
+                                                                                            }
+                                                                                            else
+                                                                                            {
+                                                                                                zapolneno = 19;
+                                                                                            }
+                                                                                        }
+                                                                                        else
+                                                                                        {
+                                                                                            zapolneno = 18;
+                                                                                        }
+                                                                                    }
+                                                                                    else
+                                                                                    {
+                                                                                        zapolneno = 17;
+                                                                                    }
+                                                                                }
+                                                                                else
+                                                                                {
+                                                                                    zapolneno = 16;
+                                                                                }
+                                                                            }
+                                                                            else
+                                                                            {
+                                                                                zapolneno = 15;
+                                                                            }
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                            zapolneno = 14;
+                                                                        }
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        zapolneno = 13;
+                                                                    }
+                                                                }
+                                                                else
+                                                                {
+                                                                    zapolneno = 12;
+                                                                }
+                                                            }
+                                                            else
+                                                            {
+                                                                zapolneno = 11;
+                                                            }
+                                                        }
+                                                        else
+                                                        {
+                                                            zapolneno = 10;
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        zapolneno = 9;
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    zapolneno = 8;
+                                                }
+                                            }
+                                            else
+                                            {
+                                                zapolneno = 7;
+                                            }
+                                        }
+                                        else
+                                        {
+                                            zapolneno = 6;
+                                        }
+                                    }
+                                    else
+                                    {
+                                        zapolneno = 5;
+                                    }
+                                }
+                                else
+                                {
+                                    zapolneno = 4;
+                                }
+                            }
+                            else
+                            {
+                                zapolneno = 3;
+                            }
+                        }
+                        else
+                        {
+                            zapolneno = 2;
+                        }
+                    }
+                    else
+                    {
+                        zapolneno = 1;
+                    }
+                }
+
+                else
+                {
+                    zapolneno = 0;
+                }
+                //..конец подсчета заполненных клеток
+                //подсчет клеток без нб и их мест
+                if (textBox137.Text == "нб" || textBox137.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[1] = true;
+                }
+                if (textBox136.Text == "нб" || textBox136.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[2] = true;
+                }
+                if (textBox135.Text == "нб" || textBox135.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[3] = true;
+                }
+                if (textBox134.Text == "нб" || textBox134.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[4] = true;
+                }
+                if (textBox133.Text == "нб" || textBox133.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[5] = true;
+                }
+                if (textBox132.Text == "нб" || textBox132.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[6] = true;
+                }
+                if (textBox131.Text == "нб" || textBox131.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[7] = true;
+                }
+                if (textBox130.Text == "нб" || textBox130.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[8] = true;
+                }
+                if (textBox129.Text == "Нб" || textBox129.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[9] = true;
+                }
+                if (textBox128.Text == "нб" || textBox128.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[10] = true;
+                }
+                if (textBox127.Text == "нб" || textBox127.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[11] = true;
+                }
+                if (textBox126.Text == "нб" || textBox126.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[12] = true;
+                }
+                if (textBox125.Text == "нб" || textBox125.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[13] = true;
+                }
+                if (textBox124.Text == "нб" || textBox124.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[14] = true;
+                }
+                if (textBox138.Text == "нб" || textBox138.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[15] = true;
+                }
+                if (textBox139.Text == "нб" || textBox139.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[16] = true;
+                }
+                if (textBox123.Text == "нб" || textBox123.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[17] = true;
+                }
+                if (textBox140.Text == "нб" || textBox140.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[18] = true;
+                }
+                if (textBox122.Text == "нб" || textBox122.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[19] = true;
+                }
+                if (textBox121.Text == "нб" || textBox121.Text == "")
+                {
+                    snb++;
+                    zapolneno--;
+                    check[20] = true;
+                }
+                //..конец подсчета клеток без нб и их мест
+                //счет среднего значения с учетом всех факторов
+                for (int i = 1; i < 21; i++)
+                {
+                    if (schet != 20 - x)
+                    {
+                        if (check[i] != true)
+                        {
+                            switch (i)
+                            {
+                                case 1:
+                                    summ = summ + Convert.ToInt32(textBox137.Text);
+                                    schet++;
+                                    break;
+                                case 2:
+                                    summ = summ + Convert.ToInt32(textBox136.Text);
+                                    schet++;
+                                    break;
+                                case 3:
+                                    summ = summ + Convert.ToInt32(textBox135.Text);
+                                    schet++;
+                                    break;
+                                case 4:
+                                    summ = summ + Convert.ToInt32(textBox134.Text);
+                                    schet++;
+                                    break;
+                                case 5:
+                                    summ = summ + Convert.ToInt32(textBox133.Text);
+                                    schet++;
+                                    break;
+                                case 6:
+                                    summ = summ + Convert.ToInt32(textBox132.Text);
+                                    schet++;
+                                    break;
+                                case 7:
+                                    summ = summ + Convert.ToInt32(textBox131.Text);
+                                    schet++;
+                                    break;
+                                case 8:
+                                    summ = summ + Convert.ToInt32(textBox130.Text);
+                                    schet++;
+                                    break;
+                                case 9:
+                                    summ = summ + Convert.ToInt32(textBox129.Text);
+                                    schet++;
+                                    break;
+                                case 10:
+                                    summ = summ + Convert.ToInt32(textBox128.Text);
+                                    schet++;
+                                    break;
+                                case 11:
+                                    summ = summ + Convert.ToInt32(textBox127.Text);
+                                    schet++;
+                                    break;
+                                case 12:
+                                    summ = summ + Convert.ToInt32(textBox126.Text);
+                                    schet++;
+                                    break;
+                                case 13:
+                                    summ = summ + Convert.ToInt32(textBox125.Text);
+                                    schet++;
+                                    break;
+                                case 14:
+                                    summ = summ + Convert.ToInt32(textBox124.Text);
+                                    schet++;
+                                    break;
+                                case 15:
+                                    summ = summ + Convert.ToInt32(textBox138.Text);
+                                    schet++;
+                                    break;
+                                case 16:
+                                    summ = summ + Convert.ToInt32(textBox139.Text);
+                                    schet++;
+                                    break;
+                                case 17:
+                                    summ = summ + Convert.ToInt32(textBox123.Text);
+                                    schet++;
+                                    break;
+                                case 18:
+                                    summ = summ + Convert.ToInt32(textBox140.Text);
+                                    schet++;
+                                    break;
+                                case 19:
+                                    summ = summ + Convert.ToInt32(textBox122.Text);
+                                    schet++;
+                                    break;
+                                case 20:
+                                    summ = summ + Convert.ToInt32(textBox121.Text);
+                                    schet++;
+                                    break;
+                            }
+                        }
+                    }
+                }
+                //..конец счета среднего значения с учетом всех факторов
+                summ = summ / (20 - snb);
+                textBox628.Text = Convert.ToString(summ);
+                summ = 0;
+                snb = 0;
+                monthcheck = true;
+                endcheck_zap(group_loc, month_loc);
+
+                //7 строка
             }
         }
         private void endcheck()
